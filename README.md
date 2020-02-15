@@ -1,7 +1,18 @@
 # linux_setup
 
-1. run step1_installNecessary
-2. restart
-3. create ssh key ; copy ssh key to github
-4. run step2_gitSetup
-5. run step3_runSudoMaster
+* Run step1
+* Setting
+	* Shortcut
+	* Languge > unikey
+	* Time format
+	* Power
+	* Privacy
+* Twice
+	* Turn off animation
+	* Change theme
+* Install hide top bar
+* Sudo apt remove gnome-shell-extension-ubuntu-dock
+* Restart
+* Create ssh key > copy ssh key to github
+* Run step2
+* Run step3
