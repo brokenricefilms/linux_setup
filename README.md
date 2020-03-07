@@ -2,9 +2,15 @@
 
 -   Run step1
 -   Setting
-    _ Shortcut
-    _ Languge > unikey
-    \_ Time format, Power, Privacy
+    [] Shortcut
+		[] Flameshot
+		```
+		flameshot gui
+		```
+    [] Languge > unikey
+    [] Time format
+	[] Power
+	[] Privacy
 -   Twice > Turn off animation > Change theme
 -   Ubuntu software > install hide top bar
 
