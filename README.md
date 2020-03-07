@@ -1,6 +1,9 @@
 # linux_setup
 
--   Run step1
+```
+./step1_installNecessary
+```
+
 -   Setting
 -   [ ] Shortcut
 
@@ -32,6 +35,10 @@ Sudo apt remove gnome-shell-extension-ubuntu-dock
     " > ~/.gitconfig
 ```
 
-    >>> Run ./step2_gitSetup
+```
+./step2_gitSetup
+```
 
--   Run ./step3_runSudoMaster
+```
+./step3_runSudoMaster
+```
