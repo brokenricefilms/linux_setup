@@ -14,12 +14,15 @@
 -   Restart
 -   Create ssh key > copy ssh key to github
 -   Edit file step2_gitSetup > change
-    '''
+
+```
     echo "
     [user]
     name = #your_name
     email = #your_email
     " > ~/.gitconfig
-    '''
-    > Run ./step2_gitSetup
+```
+
+    >>> Run ./step2_gitSetup
+
 -   Run ./step3_runSudoMaster
