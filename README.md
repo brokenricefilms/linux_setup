@@ -11,7 +11,9 @@
 -   [ ] Time format
 -   [ ] Power
 -   [ ] Privacy
--   Twice > Turn off animation > Change theme
+-   Twice
+    -   [ ] Turn off animation
+    -   [ ] Change theme
 -   Ubuntu software > install hide top bar
 
 ```
