@@ -13,7 +13,7 @@
 -   Sudo apt remove gnome-shell-extension-ubuntu-dock
 -   Restart
 -   Create ssh key > copy ssh key to github
--   Edit file step2_gitSetup > change
+-   Edit file ./step2_gitSetup > change
 
 ```
     echo "
