@@ -2,13 +2,15 @@
 
 -   Run step1
 -   Setting
-    [ ] Shortcut
-    [ ] Flameshot
-    ```flameshot gui```
-    [ ] Languge > unikey
-    [ ] Time format
-    [ ] Power
-    [ ] Privacy
+-   [ ] Shortcut
+
+    -   [ ] Flameshot > flameshot gui
+    -   [ ] Switch to HDMI > pactl set-card-profile 0 output:hdmi-stereo
+
+-   [ ] Languge > unikey
+-   [ ] Time format
+-   [ ] Power
+-   [ ] Privacy
 -   Twice > Turn off animation > Change theme
 -   Ubuntu software > install hide top bar
 
