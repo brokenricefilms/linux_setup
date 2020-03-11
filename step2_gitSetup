@@ -11,6 +11,7 @@ mkdir git ; cd ~/git/
 git clone git@github.com:nicholaspham2311/dotfiles.git
 git clone git@github.com:nicholaspham2311/lazyscript.git
 git clone git@github.com:nicholaspham2311/linux_setup.git
+git clone git@github.com:nicholaspham2311/ok.git
 
 mkdir ~/.config/nvim/ 
 cp ~/git/dotfiles/nvim/init.vim ~/.config/nvim/
@@ -23,6 +24,4 @@ cp ~/git/dotfiles/fish/fish_prompt.fish ~/.config/fish/functions/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
 cp ~/git/dotfiles/ranger/* ~/.config/ranger
 cp ~/git/dotfiles/.selected_editor ~/
-
-git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
-cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
+cp ~/git/ok/ssh/* ~/.ssh/

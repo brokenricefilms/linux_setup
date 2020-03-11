@@ -24,7 +24,7 @@ Sudo apt remove gnome-shell-extension-ubuntu-dock
 ```
 
 -   Restart
--   Create ssh key > copy ssh key to github OR using old ssh key
+-   SSH key setup
 -   Edit file ./step2_gitSetup > change
 
 ```

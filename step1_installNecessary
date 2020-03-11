@@ -1,23 +1,31 @@
 #!/bin/bash
 # necessary
-sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server ibus-unikey flameshot python3-pip python-pip tldr net-tools libreoffice preload krita xclip speedtest-cli mysql-server neovim fd-find aria2c tree adb gimp npm yarn apt-transport-https -y
+sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server ibus-unikey flameshot python3-pip python-pip tldr net-tools libreoffice preload krita xclip speedtest-cli mysql-server neovim fd-find aria2c tree adb gimp npm yarn apt-transport-https -yy
 
 
 ## C/C++/Objective-C language server
-sudo apt-get install ccls
+sudo apt-get install ccls -y
 
 ## git ...
-sudo snap innstall grv
+sudo snap innstall grv -y
 
+# medium unlimited
+mkdir ~/tools/extenstion
+cd ~/tools/extenstion
+mkdir mediumUnlimited
+echo "check update this 1.4.16"
+wget https://manojvivek.github.io/medium-unlimited/medium-unlimited-1.4.16.zip
+unzip *.zip ; rm *.zip 
+
+# sherlock
+git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
+cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
 ibus restart
 
 # Python setup
 sudo apt-get install -y python3-pandas python3-matplotlib python3-pygame
-sudo pip install csvkit
-sudo pip install opencv-python
-sudo pip3 install notebook
-sudo pip3 install pylint
-sudo pip3 install numpy
+sudo pip install csvkit opencv-python
+sudo pip3 install notebook pylint numpy
 
 # brave
 curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
@@ -30,6 +38,5 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 nvim +{PlugInstall}
 
+# moving fish from bash
 chsh -s "$(which fish)"
-
-ssh-keygen
