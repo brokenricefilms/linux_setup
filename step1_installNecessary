@@ -1,9 +1,6 @@
 #!/bin/bash
 # necessary
-sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server ibus-unikey flameshot python3-pip python-pip tldr net-tools libreoffice preload krita xclip speedtest-cli mysql-server neovim fd-find aria2c tree adb gimp npm yarn apt-transport-https cowsay android-tools-adb -yy
-
-# anbox
-sudo snap install --devmode --beta anbox
+sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server ibus-unikey flameshot python3-pip python-pip tldr net-tools libreoffice preload krita xclip speedtest-cli mysql-server neovim fd-find aria2c tree gimp npm yarn apt-transport-https cowsay -tools-adb -yy
 
 ## C/C++/Objective-C language server
 sudo apt-get install ccls -y
