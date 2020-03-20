@@ -40,5 +40,4 @@ Sudo apt remove gnome-shell-extension-ubuntu-dock
 ```
 
 ```
-./step3_runSudoMaster
-```
+==> DONE
