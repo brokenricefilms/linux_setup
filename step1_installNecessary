@@ -1,6 +1,13 @@
 #!/bin/bash
 # necessary
-sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server ibus-unikey flameshot python3-pip python-pip tldr net-tools libreoffice preload krita xclip speedtest-cli mysql-server neovim fd-find aria2c tree gimp npm yarn apt-transport-https cowsay -tools-adb -yy
+sudo apt-get install ttf-mscorefonts-installer tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot python3-pip python-pip tldr net-tools libreoffice preload krita xclip speedtest-cli mysql-server neovim fd-find aria2c tree gimp npm yarn apt-transport-https cowsay -yy
+
+# teni
+sudo add-apt-repository ppa:teni-ime/ibus-teni
+sudo apt-get update
+sudo apt-get install ibus-teni
+ibus restart
+sudo usermod -a -G input $USER
 
 ## C/C++/Objective-C language server
 sudo apt-get install ccls -y
@@ -19,7 +26,6 @@ unzip *.zip ; rm *.zip
 # sherlock
 git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
 cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
-ibus restart
 
 # Python setup
 sudo apt-get install -y python3-pandas python3-matplotlib python3-pygame
