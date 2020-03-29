@@ -15,6 +15,7 @@ git clone git@github.com:nicholaspham2311/linux_setup.git
 git clone git@github.com:nicholaspham2311/ok.git
 
 mkdir ~/.config/nvim/ 
+cp ~/git/dotfiles/git/vifm/* ~/.config/vifm/
 cp ~/git/dotfiles/nvim/init.vim ~/.config/nvim/
 cp ~/git/dotfiles/vim/.vimrc ~/
 cp ~/git/dotfiles/ssh/config ~/.ssh/
@@ -23,6 +24,5 @@ cp ~/git/dotfiles/fish/config.fish ~/.config/fish/
 mkdir ~/.config/fish/functions/
 cp ~/git/dotfiles/fish/fish_prompt.fish ~/.config/fish/functions/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
-cp ~/git/dotfiles/ranger/* ~/.config/ranger
 cp ~/git/dotfiles/.selected_editor ~/
 cp ~/git/ok/ssh/* ~/.ssh/
