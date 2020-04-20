@@ -23,10 +23,6 @@ echo "check update this 1.4.16"
 wget https://manojvivek.github.io/medium-unlimited/medium-unlimited-1.4.16.zip
 unzip *.zip ; rm *.zip 
 
-# sherlock
-git clone https://github.com/sherlock-project/sherlock.git ~/tools/hacking/sherlock/
-cd ~/tools/hacking/sherlock/ ; python3 -m pip install -r requirements.txt
-
 # Python setup
 sudo apt-get install -y python3-pandas python3-matplotlib python3-pygame
 sudo pip install csvkit opencv-python
