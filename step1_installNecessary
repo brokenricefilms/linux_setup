@@ -44,6 +44,5 @@ chsh -s "$(which fish)"
 
 # make gnome terminal fancy
 wget https://raw.githubusercontent.com/NLKNguyen/papercolor-16/master/gnome-terminal/base16-papercolor-light.sh
-chmod +777 base16-papercolor-light.sh
-sh base16-papercolor-light.sh
+bash base16-papercolor-light.sh
 rm base16-papercolor-light.sh
