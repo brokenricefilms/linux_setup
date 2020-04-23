@@ -15,7 +15,7 @@ sudo apt-get install ccls -y
 ## git ...
 sudo snap innstall grv -y
 
-# medium unlimited
+# medium unlimited :) maybe
 mkdir ~/tools/extenstion
 cd ~/tools/extenstion
 mkdir mediumUnlimited
