@@ -5,26 +5,32 @@
 ```
 
 -   Setting
+-   [ ] Theme
+-   [ ] Background
 -   [ ] Shortcut
 
     -   [ ] Flameshot > flameshot gui
     -   [ ] Switch to HDMI > pactl set-card-profile 0 output:hdmi-stereo
+    -   [ ] Switch to HDMI > pactl set-card-profile 0 output:analog-stereo
 
--   [ ] Languge > unikey
--   [ ] Time format
+-   [ ] Languge > input > Vietnamese > teni
+-   [ ] Time format > USA
 -   [ ] Power
 -   [ ] Privacy
 -   Twice
-    -   [ ] Turn off animation
-    -   [ ] Change theme
+    -   [ ] top bar > format stuff
+**I don't like top bar, away show"
 -   Ubuntu software > install hide top bar
 
+**I don't like dock**
 ```
-Sudo apt remove gnome-shell-extension-ubuntu-dock
+sudo apt remove gnome-shell-extension-ubuntu-dock
 ```
 
+**update stuff**
 -   Restart
 -   SSH key setup
+**don't edit If want my name and email in your git system ;)**
 -   Edit file ./step2_gitSetup > change
 
 ```
