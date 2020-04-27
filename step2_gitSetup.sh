@@ -9,11 +9,11 @@
 
 mkdir ~/git ; cd ~/git/
 
-git clone git@github.com:nicholaspham2311/dotfiles.git
+git clone https://github.com/nicholaspham2311/dotfiles.git
 # git clone git@github.com:nicholaspham2311/lazyscript.git
 # git clone git@github.com:nicholaspham2311/linux_setup.git
 # git clone git@github.com:nicholaspham2311/dataLab.git
-# git clone git@github.com:nicholaspham2311/FreecodeCampProject.git
+# git clone git@github.com:nicholaspham2311/FreeCodeCampProject.git
 # git clone git@github.com:nicholaspham2311/vimium_dark_theme.git
 
 mkdir ~/.config/nvim/
