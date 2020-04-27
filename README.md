@@ -31,8 +31,8 @@ sudo apt remove gnome-shell-extension-ubuntu-dock
 
 - Restart
 - SSH key setup
-  **don't edit If want my name and email in your git system ;)**
 - Edit file ./step2_gitSetup > change
+  **don't edit If want my name and email in your git system ;)**
 
 ```
     echo "
