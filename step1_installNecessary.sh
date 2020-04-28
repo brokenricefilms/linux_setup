@@ -3,6 +3,8 @@
 sudo apt-get install tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm -y
 
 sudo npm install --global prettier
+# go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
+sudo npm install --global tinypng-cli
 
 # teni
 sudo add-apt-repository ppa:teni-ime/ibus-teni
