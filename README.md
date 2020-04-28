@@ -11,15 +11,14 @@
 
   - [ ] Flameshot > flameshot gui
   - [ ] Switch to HDMI > pactl set-card-profile 0 output:hdmi-stereo
-  - [ ] Switch to HDMI > pactl set-card-profile 0 output:analog-stereo
+  - [ ] Switch to PC > pactl set-card-profile 0 output:analog-stereo
 
 - [ ] Languge > input > Vietnamese > teni
 - [ ] Time format > USA
 - [ ] Power
 - [ ] Privacy
 - Twice - [ ] top bar > format stuff
-  \*\*I don't like top bar, away show"
-- Ubuntu software > install hide top bar
+- Ubuntu software > install hide top bar (I don't like top bar, away show)
 
 **I don't like dock**
 
