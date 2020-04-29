@@ -48,3 +48,9 @@ sudo apt remove gnome-shell-extension-ubuntu-dock
 ```
 ==> DONE
 ```
+
+## Q & A
+
+**Who you are?**
+
+- I'm noob, just that
