@@ -5,6 +5,7 @@ sudo apt-get install tmux curl wget git fish neofetch htop mpv gnome-tweaks tras
 sudo npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
 sudo npm install --global tinypng-cli
+sudo npm install --global browser-sync
 
 # teni
 sudo add-apt-repository ppa:teni-ime/ibus-teni
