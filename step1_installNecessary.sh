@@ -7,6 +7,18 @@ sudo npm install --global prettier
 sudo npm install --global tinypng-cli
 sudo npm install --global browser-sync
 
+# install font
+cd ~/Downloads   # or wherever you downloaded a font pack.
+unzip <font package>.zip
+# for a single user
+mkdir -p ~/.fonts
+cp *otf *otc ~/.fonts
+fc-cache -f -v # optional
+# for all users
+sudo mkdir -p /usr/share/fonts/opentype/noto
+sudo cp *otf *otc /usr/share/fonts/opentype/noto
+sudo fc-cache -f -v # optional
+
 # teni
 sudo add-apt-repository ppa:teni-ime/ibus-teni
 sudo apt update
