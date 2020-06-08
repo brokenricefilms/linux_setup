@@ -3,8 +3,8 @@
 # chance this dude
 # echo "
 # [user]
-	# name = nicholas
-	# email = nicholaspham2311@gmail.com
+	# name = thuan
+	# email = phamtanthuan2311@gmail.com
 # " > ~/.gitconfig
 
 mkdir ~/git ; cd ~/git/
