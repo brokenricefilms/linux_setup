@@ -1,4 +1,4 @@
-# linux_setup
+# Linux setup
 
 ```
 ./step1_installNecessary
@@ -13,7 +13,7 @@
   - [ ] Switch to HDMI > pactl set-card-profile 0 output:hdmi-stereo
   - [ ] Switch to PC > pactl set-card-profile 0 output:analog-stereo
 
-- [ ] Languge > input > Vietnamese > teni
+- [ ] Language > input > Vietnamese > teni
 - [ ] Time format > USA
 - [ ] Power
 - [ ] Privacy
