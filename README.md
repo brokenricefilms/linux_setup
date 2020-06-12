@@ -1,84 +1,103 @@
 # Linux setup
 
-```
+```bash
 ./step1_installNecessary
 ```
 
-- Setting
-- [ ] Theme
-- [ ] Background
-- [ ] Shortcut
+---
 
-  - [ ] Flameshot > flameshot gui
-  - [ ] Switch to HDMI > pactl set-card-profile 0 output:hdmi-stereo
-  - [ ] Switch to PC > pactl set-card-profile 0 output:analog-stereo
+1.  Setting
 
-- [ ] Language > input > Vietnamese > teni
-- [ ] Time format > USA
-- [ ] Power
-- [ ] Privacy
-- Twice - [ ] top bar > format stuff
-- Ubuntu software > install hide top bar (I don't like top bar, away show)
+    1. Theme
+    2. Background
+    3. Shortcut
 
-Extension
-1 pop shell
+       1. Flameshot > flameshot gui
+       2. Switch to HDMI > pactl set-card-profile 0 output:hdmi-stereo
+       3. Switch to PC > pactl set-card-profile 0 output:analog-stereo
 
-```sh
-cd ~/.local/share/gnome-shell/extensions/
-git clone https://github.com/pop-os/shell
-cd shell
-sh rebuild.sh
-sudo make install
-gnome-extensions enable pop-shell@system76.com
-```
+    4. Language > input > Vietnamese > teni
+    5. Time format > USA
+    6. Power
+    7. Privacy
 
-2 hide top bar
+2.  Twice - [ ] top bar > format stuff
+3.  Ubuntu software > install hide top bar (I don't like top bar, away show)
 
-```sh
-cd ~/.local/share/gnome-shell/extensions/
-git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
-cd hidetopbar@mathieu.bidon.ca
-make schemas
-cd ..
-gnome-extensions enable hidetopbar@mathieu.bidon.ca
-```
+4.  Extension
 
-ok let restart gnome run this:
+    1. pop shell
 
-```sh
-gnome-shell --replace &
-```
+       ```bash
+       cd ~/.local/share/gnome-shell/extensions/
+       git clone https://github.com/pop-os/shell
+       cd shell
+       sh rebuild.sh
+       sudo make install
+       gnome-extensions enable pop-shell@system76.com
+       ```
 
-" or just restart
+    2. hide top bar
 
-**I don't like dock**
+       ```bash
+       cd ~/.local/share/gnome-shell/extensions/
+       git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
+       cd hidetopbar@mathieu.bidon.ca
+       make schemas
+       cd ..
+       gnome-extensions enable hidetopbar@mathieu.bidon.ca
+       ```
 
-```sh
-sudo apt remove gnome-shell-extension-ubuntu-dock
-```
+    > ok let restart gnome run this:
 
-**update stuff**
+        ```bash
+        gnome-shell --replace &
+        ```
 
-- Restart
-- SSH key setup
-- Edit file ./step2_gitSetup > change
-  **don't edit If want my name and email in your git system ;)**
+    > or just restart
 
-```
-    echo "
-    [user]
-    name = #your_name
-    email = #your_email
-    " > ~/.gitconfig
-```
+5.  I don't like dock
 
-```
+    ```bash
+    sudo apt remove gnome-shell-extension-ubuntu-dock
+    ```
+
+6.  update stuff
+    1. Restart
+    2. SSH key setup
+       ```bash
+       ssh-keygen
+       ```
+       > or use old ssh key
+7.  Edit file ./step2_gitSetup > change
+    > don't edit If want my name and email in your git system ;)
+        ```bash
+            echo "
+            [user]
+            name = #your_name
+            email = #your_email
+            " > ~/.gitconfig
+        ```
+
+---
+
+```bash
 ./step2_gitSetup
 ```
 
-```
-==> DONE
-```
+---
+
+< DONE >
+
+---
+
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+---
 
 ## Q & A
 
