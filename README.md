@@ -25,9 +25,8 @@ cd linux_setup
     7. Privacy
 
 2.  Twice - [ ] top bar > format stuff
-3.  Ubuntu software > install hide top bar (I don't like top bar, away show)
 
-4.  Extension
+3.  Extension
 
     1. pop shell
 
@@ -59,28 +58,29 @@ cd linux_setup
 
     > or just restart
 
-5.  I don't like dock
+4.  I don't like dock
 
     ```bash
     sudo apt remove gnome-shell-extension-ubuntu-dock
     ```
 
-6.  update stuff
+5.  update stuff
     1. Restart
     2. SSH key setup
        ```bash
        ssh-keygen
        ```
        > or use old ssh key
-7.  Edit file ./step2_gitSetup > change
+6.  Edit file ./step2_gitSetup > change
     > don't edit If want my name and email in your git system ;)
-        ```bash
-            echo "
-            [user]
-            name = #your_name
-            email = #your_email
-            " > ~/.gitconfig
-        ```
+
+```bash
+echo "
+[user]
+name = #your_name
+email = #your_email
+" > ~/.gitconfig
+```
 
 ---
 
