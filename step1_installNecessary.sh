@@ -42,3 +42,6 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 # moving fish from bash
 echo "Enter your passwork"
 chsh -s "$(which fish)"
+
+# yeahhhhhh pop shell fuking gooddddddddddddddddddddddddddd
+

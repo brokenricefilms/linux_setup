@@ -20,9 +20,40 @@
 - Twice - [ ] top bar > format stuff
 - Ubuntu software > install hide top bar (I don't like top bar, away show)
 
+Extension
+1 pop shell
+
+```sh
+cd ~/.local/share/gnome-shell/extensions/
+git clone https://github.com/pop-os/shell
+cd shell
+sh rebuild.sh
+sudo make install
+gnome-extensions enable pop-shell@system76.com
+```
+
+2 hide top bar
+
+```sh
+cd ~/.local/share/gnome-shell/extensions/
+git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
+cd hidetopbar@mathieu.bidon.ca
+make schemas
+cd ..
+gnome-extensions enable hidetopbar@mathieu.bidon.ca
+```
+
+ok let restart gnome run this:
+
+```sh
+gnome-shell --replace &
+```
+
+" or just restart
+
 **I don't like dock**
 
-```
+```sh
 sudo apt remove gnome-shell-extension-ubuntu-dock
 ```
 
