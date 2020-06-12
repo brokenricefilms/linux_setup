@@ -17,6 +17,7 @@ git clone https://github.com/thuanpham2311/dotfiles.git
 # git clone git@github.com:thuanpham2311/FreeCodeCampProject.git
 # git clone git@github.com:thuanpham2311/vimium_dark_theme.git
 # git clone git@github.com:thuanpham2311/windowsSetup.git
+# git clone git@github.com:thuanpham2311/termuxSetup.git
 
 mkdir ~/.config/nvim/
 mkdir ~/.config/fish/
