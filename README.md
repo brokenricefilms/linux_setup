@@ -17,21 +17,15 @@ cd linux_setup
 
        1. Flameshot
 
-```bash
-flameshot gui
-```
+`bash flameshot gui`
 
        2. Switch to HDMI
 
-```bash
-pactl set-card-profile 0 output:hdmi-stereo
-```
+`bash pactl set-card-profile 0 output:hdmi-stereo`
 
        3. Switch to PC
 
-```bash
-pactl set-card-profile 0 output:analog-stereo
-```
+`bash pactl set-card-profile 0 output:analog-stereo`
 
     4. Language > input > Vietnamese > teni
     5. Time format > USA
