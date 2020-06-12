@@ -1,5 +1,12 @@
 # Linux setup
 
+## Demo
+
+![](./img/linuxSetup1.png)
+![](./img/linuxSetup2.png)
+
+---
+
 ```bash
 sudo apt install git
 git clone https://github.com/thuanpham2311/linux_setup
