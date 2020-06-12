@@ -7,6 +7,10 @@
 
 ---
 
+## Set up dudes
+
+> **You don't need follow all this stuffs**
+
 ```bash
 sudo apt install git
 git clone https://github.com/thuanpham2311/linux_setup
