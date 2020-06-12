@@ -1,6 +1,9 @@
 # Linux setup
 
 ```bash
+sudo apt install git
+git clone https://github.com/thuanpham2311/linux_setup
+cd linux_setup
 ./step1_installNecessary
 ```
 
