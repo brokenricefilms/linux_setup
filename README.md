@@ -28,52 +28,42 @@ cd linux_setup
 
     1. pop shell
 
-```bash
-cd ~/.local/share/gnome-shell/extensions/
-git clone https://github.com/pop-os/shell
-cd shell
-sh rebuild.sh
-sudo make install
-gnome-extensions enable pop-shell@system76.com
-```
+    ```bash
+    cd ~/.local/share/gnome-shell/extensions/
+    git clone https://github.com/pop-os/shell
+    cd shell
+    sh rebuild.sh
+    sudo make install
+    gnome-extensions enable pop-shell@system76.com
+    ```
 
     2. hide top bar
 
-```bash
-cd ~/.local/share/gnome-shell/extensions/
-git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
-cd hidetopbar@mathieu.bidon.ca
-make schemas
-cd ..
-gnome-extensions enable hidetopbar@mathieu.bidon.ca
-```
+    ```bash
+    cd ~/.local/share/gnome-shell/extensions/
+    git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
+    cd hidetopbar@mathieu.bidon.ca
+    make schemas
+    cd ..
+    gnome-extensions enable hidetopbar@mathieu.bidon.ca
+    ```
 
-    > ok let restart gnome run this:
-
-```bash
-gnome-shell --replace &
-```
-
+    > ok let restart gnome run this: `gnome-shell --replace &`
     > or just restart
 
 4.  I don't like dock
 
-```bash
-sudo apt remove gnome-shell-extension-ubuntu-dock
-```
+`sudo apt remove gnome-shell-extension-ubuntu-dock`
 
 5.  update stuff
     1. Restart
     2. SSH key setup
+       `ssh-keygen`
 
-```bash
-ssh-keygen
-```
+> or use old ssh key
 
-       > or use old ssh key
-
-6.  Edit file ./step2_gitSetup > change
-    > don't edit If want my name and email in your git system ;)
+6.  Edit file `./step2_gitSetup` > change
+    > don't edit If want **my name and email** in your git system ;)
 
 ```bash
 echo "
@@ -85,9 +75,7 @@ email = #your_email
 
 ---
 
-```bash
-./step2_gitSetup
-```
+`./step2_gitSetup`
 
 ```bash
  ______
