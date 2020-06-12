@@ -34,6 +34,7 @@ cd linux_setup
     cd shell
     sh rebuild.sh
     sudo make install
+    cd ..
     gnome-extensions enable pop-shell@system76.com
     ```
 
