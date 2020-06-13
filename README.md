@@ -1,5 +1,7 @@
 # Linux setup
 
+OS: Ubuntu, popOS, Debian,... (Gnome, apt pakage)
+
 ## Demo
 
 ![](./img/linuxSetup1.png)
@@ -25,9 +27,9 @@ cd linux_setup
     1. Theme
     2. Background
     3. Shortcut
-       1. Flameshot `bash flameshot gui`
-       2. Switch to HDMI `bash pactl set-card-profile 0 output:hdmi-stereo`
-       3. Switch to PC `bash pactl set-card-profile 0 output:analog-stereo`
+       1. Flameshot `flameshot gui`
+       2. Switch to HDMI `pactl set-card-profile 0 output:hdmi-stereo`
+       3. Switch to PC `pactl set-card-profile 0 output:analog-stereo`
     4. Language > input > Vietnamese > teni
     5. Time format > USA
     6. Power
