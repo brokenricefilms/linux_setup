@@ -1,6 +1,6 @@
 # Linux setup
 
-OS: Ubuntu, popOS, Debian,... (Gnome, apt pakage)
+OS: Ubuntu, popOS, Debian,... (Gnome, apt package)
 
 ## Demo
 
