@@ -19,7 +19,6 @@ mkdir ~/.config/alacritty
 
 cp -r ~/git/dotfiles/vifm/* ~/.config/vifm/
 cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
-cp -r ~/git/dotfiles/ssh/* ~/.ssh/
 cp ~/git/dotfiles/tmux/.tmux.conf ~/
 cp -r ~/git/dotfiles/fish/* ~/.config/fish/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
