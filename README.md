@@ -35,7 +35,10 @@ cd linux_setup
     6. Power
     7. Privacy
 
-2.  Twice - [ ] top bar > format stuff
+2.  Gnome tweaks
+
+    1. top bar > format stuff
+    2. windows > center new windows
 
 3.  Extension
 
