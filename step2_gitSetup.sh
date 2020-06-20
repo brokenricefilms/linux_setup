@@ -15,6 +15,7 @@ mkdir ~/.config/nvim/
 mkdir ~/.config/fish/
 mkdir ~/.config/fish/functions/
 mkdir ~/.config/vifm/
+mkdir ~/.config/alacritty
 
 cp -r ~/git/dotfiles/vifm/* ~/.config/vifm/
 cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
@@ -23,3 +24,4 @@ cp ~/git/dotfiles/tmux/.tmux.conf ~/
 cp -r ~/git/dotfiles/fish/* ~/.config/fish/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
 cp ~/git/dotfiles/.selected_editor ~/
+cp ~/git/dotfiles/alacritty/alacritty.yml ~/.config/alacrity/

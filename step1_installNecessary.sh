@@ -14,9 +14,13 @@ sudo apt install -y fonts-noto-mono
 # teni
 sudo add-apt-repository ppa:teni-ime/ibus-teni
 sudo apt update
-sudo apt install ibus-teni
+sudo apt install ibus-teni -y
 ibus restart
 sudo usermod -a -G input $USER
+
+# alacritty
+sudo add-apt-repository ppa:mmstick76/alacritty
+sudo apt install alacritty -y
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
@@ -26,5 +30,4 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 echo "Enter your passwork"
 chsh -s "$(which fish)"
 
-# yeahhhhhh pop shell fuking gooddddddddddddddddddddddddddd
 
