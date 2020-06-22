@@ -19,8 +19,8 @@ ibus restart
 sudo usermod -a -G input $USER
 
 # alacritty
-sudo add-apt-repository ppa:mmstick76/alacritty
-sudo apt install alacritty -y
+# sudo add-apt-repository ppa:mmstick76/alacritty
+# sudo apt install alacritty -y
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
