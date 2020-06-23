@@ -2,7 +2,8 @@
 
 mkdir ~/git ; cd ~/git/
 
-git clone git@github.com:thuanpham2311/dotfiles.git
+git clone https://github.com/thuanpham2311/dotfiles
+# git clone git@github.com:thuanpham2311/dotfiles.git
 # git clone git@github.com:thuanpham2311/lazyscript.git
 # git clone git@github.com:thuanpham2311/linux_setup.git
 # git clone git@github.com:thuanpham2311/dataLab.git
