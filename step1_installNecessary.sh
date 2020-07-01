@@ -18,16 +18,17 @@ sudo apt install ibus-teni -y
 ibus restart
 sudo usermod -a -G input $USER
 
-# alacritty
-# sudo add-apt-repository ppa:mmstick76/alacritty
-# sudo apt install alacritty -y
+# brave
+sudo apt install apt-transport-https curl
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt update
+sudo apt install brave-browser
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# moving fish from bash
+# moving to fish
 echo "Enter your passwork"
 chsh -s "$(which fish)"
-
-

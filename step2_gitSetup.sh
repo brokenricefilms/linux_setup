@@ -11,6 +11,7 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/vimium_dark_theme.git
 # git clone git@github.com:thuanpham2311/windowsSetup.git
 # git clone git@github.com:thuanpham2311/termuxSetup.git
+# git clone git@github.com:thuanpham2311/img.git
 
 mkdir ~/.config/nvim/
 mkdir ~/.config/fish/
