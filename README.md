@@ -49,9 +49,6 @@ cd linux_setup
     git clone https://github.com/pop-os/shell
     cd shell
     sh rebuild.sh
-    sudo make install
-    cd ..
-    gnome-extensions enable pop-shell@system76.com
     ```
 
     2. hide top bar
@@ -77,9 +74,9 @@ cd linux_setup
     2. SSH key setup
        `ssh-keygen`
 
-> or use old ssh key
-
 6.  Edit file `./step2_gitSetup` > change
+    > code it for yourself
+
     > don't edit If want **my name and email** in your git system ;)
 
 ```bash
