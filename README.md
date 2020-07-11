@@ -70,11 +70,13 @@ cd linux_setup
 `sudo apt remove gnome-shell-extension-ubuntu-dock`
 
 5.  update stuff
+
     1. Restart
     2. SSH key setup
        `ssh-keygen`
 
 6.  Edit file `./step2_gitSetup` > change
+
     > code it for yourself
 
     > don't edit If want **my name and email** in your git system ;)
