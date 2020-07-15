@@ -18,6 +18,7 @@ mkdir ~/.config/fish/
 mkdir ~/.config/fish/functions/
 mkdir ~/.config/vifm/
 
+dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 cp -r ~/git/dotfiles/vifm/* ~/.config/vifm/
 cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
 cp ~/git/dotfiles/tmux/.tmux.conf ~/
