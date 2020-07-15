@@ -106,6 +106,12 @@ email = #your_email
 
 ---
 
+## freaking BUGS
+
+1. Firefox tearing???????
+
+`layers.acceleration.force-enabled` set it true and reboot
+
 ## Q & A
 
 **Who am I?**
