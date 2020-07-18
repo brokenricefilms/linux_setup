@@ -1,6 +1,6 @@
 # Linux setup
 
-OS support: Ubuntu, Fedora
+**OS support: Ubuntu, Fedora**
 
 ## Demo
 
