@@ -11,7 +11,7 @@
 
 ## Set up dudes
 
-> **You don't need follow all this stuffs**
+> You don't need follow all this stuffs
 
 ### Ubuntu
 
