@@ -1,6 +1,6 @@
 # Linux setup
 
-OS: Ubuntu, popOS, Debian,... (Gnome, apt package)
+OS support: Ubuntu, Fedora
 
 ## Demo
 
@@ -13,11 +13,22 @@ OS: Ubuntu, popOS, Debian,... (Gnome, apt package)
 
 > **You don't need follow all this stuffs**
 
+### Ubuntu
+
 ```bash
 sudo apt install git
 git clone https://github.com/thuanpham2311/linux_setup
 cd linux_setup
-./step1_installNecessary
+./ubuntuStep1.sh
+```
+
+### Fedora
+
+```bash
+sudo apt install git
+git clone https://github.com/thuanpham2311/linux_setup
+cd linux_setup
+./fedoraStep1.sh
 ```
 
 ---
@@ -65,7 +76,7 @@ cd linux_setup
     > ok let restart gnome run this: `gnome-shell --replace &`
     > or just restart
 
-4.  I don't like dock
+4.  I don't like dock (For Ubuntu user, Fedora don't need do that)
 
 `sudo apt remove gnome-shell-extension-ubuntu-dock`
 
