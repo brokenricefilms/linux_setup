@@ -25,3 +25,5 @@ cp ~/git/dotfiles/tmux/.tmux.conf ~/
 cp -r ~/git/dotfiles/fish/* ~/.config/fish/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
 cp ~/git/dotfiles/.selected_editor ~/
+cp -r ~/git/dotfiles/.fonts ~/
+fc-cache -v
