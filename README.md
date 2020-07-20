@@ -123,6 +123,15 @@ email = #your_email
 
 `layers.acceleration.force-enabled` set it true and reboot
 
+1. Fedora I have issue with Wayland so switch to Xorg
+
+```
+sudo nvim /etc/gdm/custom.conf
+
+# should be
+WaylandEnable=false
+```
+
 ## Q & A
 
 **Who am I?**
