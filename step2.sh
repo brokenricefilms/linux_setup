@@ -12,6 +12,7 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/windowsSetup.git
 # git clone git@github.com:thuanpham2311/termuxSetup.git
 # git clone git@github.com:thuanpham2311/img.git
+# git clone git@github.com:thuanpham2311/thuanpham2311.git
 
 mkdir ~/.config/nvim/
 mkdir ~/.config/fish/
