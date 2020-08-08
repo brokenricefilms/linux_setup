@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 # necessary
-sudo apt-get install adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd jupyer-notebook fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder -y
+sudo apt-get install adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd jupyer-notebook fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick -y
 
 sudo npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
 sudo npm install --global tinypng-cli
 sudo npm install --global browser-sync
 sudo npm install --global yarn
+sudo npm install -g neovim
 
 # teni
 sudo add-apt-repository ppa:teni-ime/ibus-teni
