@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # necessary
-sudo apt-get install adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd jupyer-notebook fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev -y
+sudo apt-get install adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd jupyer-notebook fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev ripgrep -y
 
 sudo npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
