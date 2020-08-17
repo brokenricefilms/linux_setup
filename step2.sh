@@ -13,6 +13,8 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/termuxSetup.git
 # git clone git@github.com:thuanpham2311/img.git
 # git clone git@github.com:thuanpham2311/thuanpham2311.git
+# git clone git@github.com:thuanpham2311/theNewsTimes.git
+# git clone git@github.com:thuanpham2311/four-card-feature-section.git
 
 mkdir ~/.config/nvim/
 mkdir ~/.config/fish/
