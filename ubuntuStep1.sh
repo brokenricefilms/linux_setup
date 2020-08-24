@@ -36,6 +36,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # moving to fish
+echo "Switch to Fish from Bash"
 echo "Enter your passwork"
 chsh -s "$(which fish)"
 
