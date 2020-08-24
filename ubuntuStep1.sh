@@ -9,6 +9,7 @@ sudo npm install --global browser-sync
 sudo npm install --global yarn
 sudo npm install -g neovim
 
+
 # ruby
 # optional neovim
 sudo gem instal neovim
@@ -37,3 +38,12 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 # moving to fish
 echo "Enter your passwork"
 chsh -s "$(which fish)"
+
+# rust lang
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# install exa
+cd ~/Downloads
+git clone https://github.com/ogham/exa
+sudo make install
+cd
