@@ -13,8 +13,10 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/termuxSetup.git
 # git clone git@github.com:thuanpham2311/img.git
 # git clone git@github.com:thuanpham2311/thuanpham2311.git
-# git clone git@github.com:thuanpham2311/theNewsTimes.git
 # git clone git@github.com:thuanpham2311/four-card-feature-section.git
+# git clone git@github.com:thuanpham2311/theNewsTimes.git
+# git clone git@github.com:thuanpham2311/calculatorOnIOS.git
+# git clone git@github.com:thuanpham2311/ok.git
 
 mkdir ~/.config/nvim/
 mkdir ~/.config/fish/
@@ -24,6 +26,7 @@ mkdir ~/.config/vifm/
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 cp -r ~/git/dotfiles/vifm/* ~/.config/vifm/
 cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
+cp -r ~/git/ok/undodir ~/.config/nvim
 cp ~/git/dotfiles/tmux/.tmux.conf ~/
 cp -r ~/git/dotfiles/fish/* ~/.config/fish/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
