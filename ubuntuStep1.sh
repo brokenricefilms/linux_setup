@@ -2,6 +2,8 @@
 # necessary
 sudo apt-get install adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev ripgrep -y
 
+# don't use sudo for npm, it can be get issue for security
+# you can set local npm out your user (not root) it can fix that
 sudo npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
 sudo npm install --global tinypng-cli
