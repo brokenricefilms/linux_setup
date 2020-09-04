@@ -13,22 +13,16 @@
 
 > You don't need follow all this stuffs
 
-### Ubuntu
+## install (just copy and pasting to your terminal)
 
 ```bash
 sudo apt install git
 git clone https://github.com/thuanpham2311/linux_setup
 cd linux_setup
-./ubuntuStep1.sh
-```
-
-### Fedora
-
-```bash
-sudo apt install git
-git clone https://github.com/thuanpham2311/linux_setup
-cd linux_setup
-./fedoraStep1.sh
+# ./ubuntuStep1.sh
+# fedora (or other distro using dnf)
+# ./fedoraStep1.sh
+# arch linux (or other distro using pacman)
 ```
 
 ---
@@ -41,7 +35,7 @@ cd linux_setup
        1. Flameshot `flameshot gui`
        2. Switch to HDMI `pactl set-card-profile 0 output:hdmi-stereo`
        3. Switch to PC `pactl set-card-profile 0 output:analog-stereo`
-    4. Language > input > Vietnamese > teni
+    4. Language > input > Vietnamese > ibus-bamboo
     5. Time format > USA
     6. Power
     7. Privacy
@@ -50,6 +44,7 @@ cd linux_setup
 
     1. top bar > format stuff
     2. windows > center new windows
+    3. keyboard > { remap caps lock -> esc }
 
 3.  Extension
 
