@@ -1,6 +1,7 @@
 # Linux setup
 
-**OS support: Ubuntu, Fedora**
+**OS support: Ubuntu (distro I'm using right now), Fedora, Arch,...
+**DE support: Gnome
 
 ## Demo
 
@@ -19,10 +20,12 @@
 sudo apt install git
 git clone https://github.com/thuanpham2311/linux_setup
 cd linux_setup
-# ./ubuntuStep1.sh
+# ubuntu (or base Debian using apt)
+./ubuntuStep1.sh
 # fedora (or other distro using dnf)
 # ./fedoraStep1.sh
 # arch linux (or other distro using pacman)
+# ./archStep1.sh
 ```
 
 ---
