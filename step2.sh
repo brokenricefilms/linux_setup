@@ -20,15 +20,19 @@ git clone https://github.com/thuanpham2311/dotfiles
 
 mkdir ~/.config/nvim/
 mkdir ~/.config/fish/
-mkdir ~/.config/fish/functions/
 mkdir ~/.config/vifm/
+mkdir ~/.config/tmux
+mkdir ~/.config/zsh
+mkdir ~/.config/zsh/function
 
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 cp -r ~/git/dotfiles/vifm/* ~/.config/vifm/
 cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
 cp -r ~/git/ok/undodir ~/.config/nvim
-cp ~/git/dotfiles/tmux/.tmux.conf ~/
-cp -r ~/git/dotfiles/fish/* ~/.config/fish/
+cp ~/git/dotfiles/tmux/.tmux.conf ~/.config/tmux
+ln -s ~/.config/tmux ~/
+cp -r ~/git/dotfiles/zsh/* ~/.config/zsh
+ln -s ~/.config/zsh/.zshrc ~/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
 cp ~/git/dotfiles/.selected_editor ~/
 cp -r ~/git/dotfiles/.fonts ~/
