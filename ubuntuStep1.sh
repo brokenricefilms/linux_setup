@@ -3,7 +3,7 @@
 sudo add-apt-repository ppa:apandada1/foliate
 sudo apt update
 # necessary
-sudo apt-get install adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev ripgrep foliate -y
+sudo apt-get install zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting -y
 
 # don't use sudo for npm, it can be get issue for security
 # you can set local npm out your user (not root) it can fix that
@@ -40,10 +40,10 @@ sudo apt install brave-browser-beta
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# moving to fish
+# moving to zsh
 echo "Switch to Fish from Bash"
 echo "Enter your passwork"
-chsh -s "$(which fish)"
+chsh -s "$(which zsh)"
 
 # rust lang
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
