@@ -7,6 +7,12 @@ sudo apt-get install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-
 
 sudo pip3 install jupyterlab
 
+# fzf setup for zsh
+cd /usr/share/
+sudo mkdir fzf
+sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.zsh
+sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
+
 # don't use sudo for npm, it can be get issue for security
 # you can set local npm out your user (not root) it can fix that
 sudo npm install --global prettier
