@@ -1,7 +1,8 @@
 # Linux setup
 
-**OS support: Ubuntu (distro I'm using right now), Fedora, Arch,...
-**DE support: Gnome
+- **OS support: Ubuntu (distro I'm using right now), Fedora, Arch,...**
+
+- **DE support: Gnome**
 
 ## Demo
 
