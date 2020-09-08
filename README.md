@@ -4,6 +4,8 @@
 
 - **DE support: Gnome**
 
+- **All my commit message is BS, don't waste your time read that\***
+
 ## Demo
 
 ![](./img/linuxSetup1.png)
