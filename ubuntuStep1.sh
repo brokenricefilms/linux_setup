@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
-
+sudo apt install apt-transport-https -y
+sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo add-apt-repository ppa:apandada1/foliate
+# brave
+curl -s https://brave-browser-apt-beta.s3.brave.com/brave-core-nightly.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-prerelease.gpg add -
+echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-beta.list
+
 sudo apt update
+
 # necessary
-sudo apt-get install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp apt-transport-https cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting -y
+sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp  cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo brave-browser-beta -y
 
 sudo pip3 install jupyterlab
 
@@ -26,31 +32,9 @@ sudo npm install -g neovim
 # optional neovim
 sudo gem instal neovim
 
-sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
-sudo apt-get update
-sudo apt-get install ibus-bamboo
-ibus restart
-
-# brave
-sudo apt install apt-transport-https curl
-
-curl -s https://brave-browser-apt-beta.s3.brave.com/brave-core-nightly.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-prerelease.gpg add -
-
-echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-beta.list
-
-sudo apt update
-
-sudo apt install brave-browser-beta
-
-
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-# moving to zsh
-echo "Switch to Zsh from Bash"
-echo "Enter your passwork"
-chsh -s "$(which zsh)"
 
 # rust lang
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -60,3 +44,14 @@ cd ~/Downloads
 git clone https://github.com/ogham/exa
 sudo make install
 cd
+
+# go lang
+tar -zxvf *.tar.gz
+sudo mv go /usr/local/
+echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
+
+# moving to zsh
+echo "Switch to Zsh from Bash"
+echo "Enter your passwork"
+chsh -s "$(which zsh)"
+echo "need restart pc"

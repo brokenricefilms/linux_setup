@@ -17,6 +17,11 @@
 
 > You don't need follow all this stuffs
 
+## Require
+
+- Go lang | download file (https://golang.org/dl/) 
+    " file should be at Downloads place
+
 ## install (just copy and pasting to your terminal)
 
 ```bash
