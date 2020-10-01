@@ -9,15 +9,9 @@ echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ stable main"
 sudo apt update
 
 # necessary
-sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp  cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick ruby-dev ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo brave-browser-beta -y
+sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp  cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick  ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo brave-browser-beta -y
 
 sudo pip3 install jupyterlab
-
-# fzf setup for zsh
-cd /usr/share/
-sudo mkdir fzf
-sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.zsh
-sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
 
 # don't use sudo for npm, it can be get issue for security
 # you can set local npm out your user (not root) it can fix that
@@ -29,16 +23,16 @@ sudo npm install --global yarn
 sudo npm install -g neovim
 
 # ruby
+sudo apt install ruby-dev -y
 # optional neovim
-sudo gem instal neovim
+sudo gem install neovim
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# rust lang
+# rust lang for exa
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
 # install exa
 cd ~/Downloads
 git clone https://github.com/ogham/exa
@@ -50,7 +44,12 @@ tar -zxvf *.tar.gz
 sudo mv go /usr/local/
 echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 
-# moving to zsh
+# zsh stuff
+cd /usr/share/
+sudo mkdir fzf
+sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.zsh
+sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
+
 echo "Switch to Zsh from Bash"
 echo "Enter your passwork"
 chsh -s "$(which zsh)"
