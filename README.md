@@ -20,7 +20,8 @@
 ## Require
 
 - Go lang | download file (https://golang.org/dl/) 
-    " vim-hexokinase (nvim plugin) need go lang
+
+> vim-hexokinase (nvim plugin) need go lang
 
 ## install (just copy and pasting to your terminal)
 
