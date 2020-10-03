@@ -19,7 +19,7 @@
 
 ## Require
 
-- Go lang | download file (https://golang.org/dl/) 
+- Go lang | download file (https://golang.org/dl/)
 
 > vim-hexokinase (nvim plugin) need go lang
 
