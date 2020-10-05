@@ -9,7 +9,7 @@ echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ stable main"
 sudo apt update
 
 # necessary
-sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp  cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick  ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo brave-browser-beta -y
+sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp  cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick  ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo brave-browser-beta unrar -y
 
 sudo pip3 install jupyterlab
 
