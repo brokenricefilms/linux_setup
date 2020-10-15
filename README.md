@@ -15,8 +15,6 @@
 
 ## Set up dudes
 
-> You don't need follow all this stuffs
-
 ## Require
 
 - Go lang | download file (https://golang.org/dl/)
@@ -33,7 +31,7 @@ cd linux_setup
 ./ubuntuStep1.sh
 # fedora (or other distro using dnf)
 # ./fedoraStep1.sh
-# arch linux (or other distro using pacman)
+# arch linux (or other arch base)
 # ./archStep1.sh
 ```
 
@@ -41,15 +39,13 @@ cd linux_setup
 
 1.  Setting
 
-    1. Theme
+    1. Theme > yaru-dark (ubuntu)
     2. Background
     3. Shortcut
-       1. Flameshot `flameshot gui`
-       2. Switch to HDMI `pactl set-card-profile 0 output:hdmi-stereo`
-       3. Switch to PC `pactl set-card-profile 0 output:analog-stereo`
+       1. Flameshot `flameshot gui` <super>+<shift>+<S>
     4. Language > input > Vietnamese > ibus-bamboo
     5. Time format > USA
-    6. Power
+    6. Power > blank screen > never
     7. Privacy
 
 2.  Gnome tweaks
