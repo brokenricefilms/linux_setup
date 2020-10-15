@@ -26,6 +26,7 @@ mkdir ~/.config/zsh
 mkdir ~/.config/zsh/function
 
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
+dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf
 cp -r ~/git/dotfiles/vifm/* ~/.config/vifm/
 cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
 cp -r ~/git/ok/undodir ~/.config/nvim
