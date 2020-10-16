@@ -31,7 +31,8 @@ cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
 cp -r ~/git/ok/undodir ~/.config/nvim/
 cp ~/git/dotfiles/tmux/.tmux.conf ~/.config/tmux/
 ln -s ~/.config/tmux/.tmux.conf ~/
-cp -r ~/git/dotfiles/zsh/* ~/.config/zsh
+cp -r ~/git/dotfiles/zsh/* ~/.config/zsh/
+cp -r ~/git/dotfiles/zsh/.zshrc ~/.config/zsh/
 ln -s ~/.config/zsh/.zshrc ~/
 cp ~/git/dotfiles/git/.gitconfig ~/ 
 cp ~/git/dotfiles/.selected_editor ~/
