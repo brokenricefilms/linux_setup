@@ -9,18 +9,21 @@ echo "deb [arch=amd64] https://brave-browser-apt-beta.s3.brave.com/ stable main"
 sudo apt update
 
 # necessary
-sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp  cowsay npm vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick  ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo brave-browser-beta unrar -y
+sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree gimp  cowsay vifm fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder imagemagick  ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo brave-browser-beta unrar -y
 
 sudo pip3 install jupyterlab
 
+npm config set prefix ~/.npm
+
 # don't use sudo for npm, it can be get issue for security
 # you can set local npm out your user (not root) it can fix that
-sudo npm install --global prettier
+npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
-sudo npm install --global tinypng-cli
-sudo npm install --global browser-sync
-sudo npm install --global yarn
-sudo npm install -g neovim
+npm install --global tinypng-cli
+npm install --global browser-sync
+npm install --global yarn
+npm install --global neovim
+npm install --global typescript
 
 # ruby
 sudo apt install ruby-dev -y
