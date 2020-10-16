@@ -13,10 +13,9 @@ sudo apt install jupyter zsh adb tmux curl wget git neofetch htop mpv gnome-twea
 
 sudo pip3 install jupyterlab
 
+# use npm install --global without sudo
 npm config set prefix ~/.npm
 
-# don't use sudo for npm, it can be get issue for security
-# you can set local npm out your user (not root) it can fix that
 npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
 npm install --global tinypng-cli
