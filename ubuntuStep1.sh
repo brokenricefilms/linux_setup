@@ -24,6 +24,14 @@ npm install --global yarn
 npm install --global neovim
 npm install --global typescript
 
+mkdir ~/app/ ; cd app
+
+https://github.com/pop-os/shell
+cd shell
+make local-install
+
+cd
+
 # ruby
 sudo apt install ruby-dev -y
 # optional neovim
