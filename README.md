@@ -42,7 +42,7 @@ cd linux_setup
     1. Theme > yaru-dark (ubuntu)
     2. Background
     3. Shortcut
-       1. Flameshot `flameshot gui` <super>+<shift>+<S>
+       1. Flameshot `flameshot gui <super>+<shift>+<S>`
     4. Language > input > Vietnamese > ibus-bamboo
     5. Time format > USA
     6. Power > blank screen > never

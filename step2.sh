@@ -34,7 +34,7 @@ ln -s ~/.config/tmux/.tmux.conf ~/
 cp -r ~/git/dotfiles/zsh/* ~/.config/zsh/
 cp -r ~/git/dotfiles/zsh/.zshrc ~/.config/zsh/
 ln -s ~/.config/zsh/.zshrc ~/
-cp ~/git/dotfiles/git/.gitconfig ~/ 
+cp ~/git/dotfiles/git/.gitconfig ~/
 cp ~/git/dotfiles/.selected_editor ~/
 cp -r ~/git/dotfiles/.fonts ~/
 cd ~/.fonts fc-cache -v
