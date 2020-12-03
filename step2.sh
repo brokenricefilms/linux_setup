@@ -40,6 +40,6 @@ cp ~/git/dotfiles/git/.gitconfig ~/
 cp ~/git/dotfiles/.selected_editor ~/
 cp -r ~/git/dotfiles/.fonts ~/
 cd ~/.fonts fc-cache -v
-cp -r ~/git/dotfiles/kitty/ ~/.config/kitty/
-cp -r ~/git/dotfiles/autokey ~/.config/autokey
+cp -r ~/git/dotfiles/kitty/* ~/.config/kitty/
+cp -r ~/git/dotfiles/autokey/* ~/.config/autokey
 cd
