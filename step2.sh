@@ -18,11 +18,13 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/calculatorOnIOS.git
 # git clone git@github.com:thuanpham2311/ok.git
 
-mkdir ~/.config/nvim/
-mkdir ~/.config/fish/
-mkdir ~/.config/vifm/
+mkdir ~/.config/nvim
+mkdir ~/.config/fish
+mkdir ~/.config/vifm
 mkdir ~/.config/tmux
 mkdir ~/.config/zsh
+mkdir ~/.config/kitty
+mkdir ~/.config/autokey
 
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf
@@ -38,4 +40,6 @@ cp ~/git/dotfiles/git/.gitconfig ~/
 cp ~/git/dotfiles/.selected_editor ~/
 cp -r ~/git/dotfiles/.fonts ~/
 cd ~/.fonts fc-cache -v
+cp -r ~/git/dotfiles/kitty/ ~/.config/kitty/
+cp -r ~/git/dotfiles/autokey ~/.config/autokey
 cd
