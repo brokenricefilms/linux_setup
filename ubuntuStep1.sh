@@ -50,9 +50,12 @@ sudo make install
 cd
 
 # go lang
+cd ~/Downloads
+wget https://golang.org/dl/go1.15.6.linux-amd64.tar.gz
 tar -zxvf *.tar.gz
 sudo mv go /usr/local/
 echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
+cd
 
 # zsh stuff
 cd /usr/share/
