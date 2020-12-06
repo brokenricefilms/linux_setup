@@ -67,3 +67,9 @@ echo "Switch to Zsh from Bash"
 echo "Enter your passwork"
 chsh -s "$(which zsh)"
 echo "need restart pc"
+
+mkdir ~/app/ ; cd ~/app
+git clone https://github.com/pop-os/shell
+cd ~/app/shell/
+make local-install
+cd
