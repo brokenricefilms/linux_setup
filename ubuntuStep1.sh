@@ -24,12 +24,6 @@ npm install --global yarn
 npm install --global neovim
 npm install --global typescript
 
-mkdir ~/app ; cd ~/app
-git clone https://github.com/pop-os/shell
-cd ~/app/shell
-make local-install
-cd
-
 # ruby
 sudo apt install ruby-dev -y
 # optional neovim
@@ -56,4 +50,11 @@ sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion
 echo "Switch to Zsh from Bash"
 echo "Enter your passwork"
 chsh -s "$(which zsh)"
+
+mkdir ~/app ; cd ~/app
+git clone https://github.com/pop-os/shell
+cd ~/app/shell
+make local-install
+cd
+
 echo "need restart pc"
