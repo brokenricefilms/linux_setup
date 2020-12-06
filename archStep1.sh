@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-# THIS NO LONGER UPDATE
+echo "# THIS NO LONGER UPDATE"
+echo "# THIS NO LONGER UPDATE"
+echo "# THIS NO LONGER UPDATE"
+sleep 5
 
 # necessary
 sudo pacman -S adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd aria2 tree gimp cowsay npm vifm fzf npm imagemagick ruby ripgrep brave-beta
