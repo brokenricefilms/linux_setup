@@ -43,12 +43,18 @@ cd
 
 # zsh stuff
 cd /usr/share/
-sudo mkdir fzf
+sudo mkdir fzf ; cd fzf
 sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.zsh
 sudo wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
 
 echo "Switch to Zsh from Bash"
 echo "Enter your passwork"
 chsh -s "$(which zsh)"
+
+mkdir ~/app ; cd ~/app
+git clone https://github.com/pop-os/shell
+cd ~/app/shell
+make local-install
+cd
 
 echo "need restart pc"
