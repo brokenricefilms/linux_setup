@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 
-echo "# THIS NO LONGER UPDATE"
-echo "# THIS NO LONGER UPDATE"
-echo "# THIS NO LONGER UPDATE"
-sleep 5
-
 # necessary
-sudo pacman -S adb tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd aria2 tree gimp cowsay npm vifm fzf npm imagemagick ruby ripgrep brave-beta
+sudo pacman -S tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay npm vifm fzf npm ruby ripgrep brave kitty nnn exa lua gnome-shell-pomodoro -yy
+sudo yay -S ibus-bamboo -yy
 
-sudo npm install --global prettier
+# use npm install --global without sudo
+npm config set prefix ~/.npm
+
+npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
-sudo npm install --global tinypng-cli
-sudo npm install --global browser-sync
-sudo npm install --global yarn
-sudo npm install -g neovim
+npm install --global tinypng-cli
+npm install --global browser-sync
+npm install --global yarn
+npm install --global neovim
+npm install --global typescript
 
 sudo pip3 install neovim
 
