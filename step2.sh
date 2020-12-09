@@ -17,6 +17,8 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/theNewsTimes.git
 # git clone git@github.com:thuanpham2311/calculatorOnIOS.git
 # git clone git@github.com:thuanpham2311/ok.git
+# git clone git@github.com:thuanpham2311/stuDarkTheme
+
 
 mkdir ~/.config/nvim
 mkdir ~/.config/fish
