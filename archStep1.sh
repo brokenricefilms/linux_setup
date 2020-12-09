@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
+sudo pacman -Syu --noconfirm
 # necessary
-sudo pacman -S tmux curl wget git fish neofetch htop mpv gnome-tweaks trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay npm vifm fzf npm ruby ripgrep brave kitty nnn exa lua gnome-shell-pomodoro -yy
-sudo yay -S ibus-bamboo -yy
+sudo pamac build ibus-bamboo --noconfirm
+sudo pacman -S yay tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay npm vifm npm ruby ripgrep brave kitty nnn exa --noconfirm
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
@@ -15,7 +16,7 @@ npm install --global yarn
 npm install --global neovim
 npm install --global typescript
 
-sudo pip3 install neovim
+sudo python3 -m pip install --user --upgrade pynvim
 
 # ruby
 # optional neovim
