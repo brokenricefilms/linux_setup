@@ -1,7 +1,5 @@
 # Linux setup
 
-- **OS support: Ubuntu (distro I'm using right now), Fedora, Arch,...**
-
 - **DE support: Gnome**
 
 - **All my commit message is BS, don't waste your time read that**
@@ -14,12 +12,6 @@
 ---
 
 ## Set up dudes
-
-## Require
-
-- Go lang | download file (https://golang.org/dl/)
-
-> vim-hexokinase (nvim plugin) need go lang
 
 ## install (just copy and pasting to your terminal)
 
