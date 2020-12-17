@@ -3,7 +3,8 @@
 sudo pacman -Syu --noconfirm
 # necessary
 sudo pamac build ibus-bamboo --noconfirm
-sudo pacman -S yay tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay npm vifm npm ruby ripgrep brave kitty nnn exa noto-fonts-emoji --noconfirm
+sudo pacman -S yay tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay npm vifm npm ruby ripgrep brave kitty nnn exa noto-fonts-emoji lua aria2 onlyoffice-desktopeditors foliate tig --noconfirm
+yay -S autokey gnome-shell-pomodoro olive universal-ctags --noconfirm
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
@@ -17,9 +18,6 @@ npm install --global neovim
 npm install --global typescript
 
 sudo python3 -m pip install --user --upgrade pynvim
-
-# ruby
-# optional neovim
 gem install neovim
 
 # nvim setup
