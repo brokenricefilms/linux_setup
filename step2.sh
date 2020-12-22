@@ -19,27 +19,22 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/ok.git
 # git clone git@github.com:thuanpham2311/stuDarkTheme
 
-
-mkdir ~/.config/nvim
-mkdir ~/.config/fish
-mkdir ~/.config/tmux
-mkdir ~/.config/zsh
-mkdir ~/.config/kitty
-mkdir ~/.config/autokey
+mkdir ~/backupDotfile
+mv ~/.config/nvim         ~/backupDotfile
+mv ~/.config/fish         ~/backupDotfile
+mv ~/.config/kitty        ~/backupDotfile
+mv ~/.config/autokey      ~/backupDotfile
+mv ~/.fonts               ~/backupDotfile
 
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf
-cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
-cp -r ~/git/ok/undodir ~/.config/nvim/
-cp ~/git/dotfiles/tmux/.tmux.conf ~/.config/tmux/
-ln -s ~/.config/tmux/.tmux.conf ~/
-cp -r ~/git/dotfiles/zsh/* ~/.config/zsh/
-cp -r ~/git/dotfiles/zsh/.zshrc ~/.config/zsh/
-ln -s ~/.config/zsh/.zshrc ~/
-cp ~/git/dotfiles/git/.gitconfig ~/
-cp ~/git/dotfiles/.selected_editor ~/
-cp -r ~/git/dotfiles/.fonts ~/
-cd ~/.fonts ; fc-cache -v
-cp -r ~/git/dotfiles/kitty/* ~/.config/kitty/
-cp -r ~/git/dotfiles/autokey/* ~/.config/autokey
+ln -sf ~/git/dotfiles/nvim ~/.config/nvim
+ln -sf ~/git/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -sf ~/git/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/git/dotfiles/git/.gitconfig ~/.gitconfig
+ln -sf ~/git/dotfiles/.selected_editor ~/.selected_editor
+ln -sf ~/git/dotfiles/.fonts ~/.fonts ; cd ~/git/dotfiles/.fonts ; fc-cache -v
+ln -sf ~/git/dotfiles/kitty/ ~/.config/kitty/
+ln -sf ~/git/dotfiles/autokey/ ~/.config/autokey
+ln -sf ~/git/ok/.tinypng ~/.tinypng
 cd
