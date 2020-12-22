@@ -22,7 +22,6 @@ git clone https://github.com/thuanpham2311/dotfiles
 
 mkdir ~/.config/nvim
 mkdir ~/.config/fish
-mkdir ~/.config/vifm
 mkdir ~/.config/tmux
 mkdir ~/.config/zsh
 mkdir ~/.config/kitty
@@ -30,7 +29,6 @@ mkdir ~/.config/autokey
 
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf
-cp -r ~/git/dotfiles/vifm/* ~/.config/vifm/
 cp -r ~/git/dotfiles/nvim/* ~/.config/nvim/
 cp -r ~/git/ok/undodir ~/.config/nvim/
 cp ~/git/dotfiles/tmux/.tmux.conf ~/.config/tmux/
