@@ -37,4 +37,5 @@ ln -sf ~/git/dotfiles/.fonts ~/.fonts ; cd ~/git/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/git/dotfiles/kitty/ ~/.config/kitty/
 ln -sf ~/git/dotfiles/autokey/ ~/.config/autokey
 ln -sf ~/git/ok/.tinypng ~/.tinypng
+# ln -sf ~/git/ssh/config ~/.ssh/config
 cd
