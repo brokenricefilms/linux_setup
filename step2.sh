@@ -26,11 +26,10 @@ mv ~/.config/kitty        ~/backupDotfile
 mv ~/.config/autokey      ~/backupDotfile
 mv ~/.fonts               ~/backupDotfile
 
-dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
-dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf
+curl -fsSL https://starship.rs/install.sh | bash
+ln -sf ~/git/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf ~/git/dotfiles/nvim ~/.config/nvim
 ln -sf ~/git/dotfiles/tmux/.tmux.conf ~/.tmux.conf
-ln -sf ~/git/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf ~/git/dotfiles/git/.gitconfig ~/.gitconfig
 ln -sf ~/git/dotfiles/.selected_editor ~/.selected_editor
 ln -sf ~/git/dotfiles/.fonts ~/.fonts ; cd ~/git/dotfiles/.fonts ; fc-cache -v
@@ -38,4 +37,6 @@ ln -sf ~/git/dotfiles/kitty/ ~/.config/kitty/
 ln -sf ~/git/dotfiles/autokey/ ~/.config/autokey
 ln -sf ~/git/ok/.tinypng ~/.tinypng
 # ln -sf ~/git/ssh/config ~/.ssh/config
+dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
+dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf
 cd
