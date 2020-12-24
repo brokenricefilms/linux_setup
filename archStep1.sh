@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-sudo pacman -Syu --noconfirm
+sudo pacman-mirrors --fasttrack && sudo pacman -Syyu --noconfirm
 
 sudo pacman -S yay tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay ruby ripgrep kitty nnn exa noto-fonts-emoji lua aria2 onlyoffice-desktopeditors foliate tig clang nodejs npm youtube-dl --noconfirm
 
