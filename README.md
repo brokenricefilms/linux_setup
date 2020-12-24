@@ -21,9 +21,9 @@ git clone https://github.com/thuanpham2311/linux_setup
 cd linux_setup
 # ubuntu (or base Debian using apt)
 ./ubuntuStep1.sh
-# no longer update, fedora (or other distro using dnf)
+# fedora (or other distro using dnf)
 # ./fedoraStep1.sh
-# no longer update, arch linux (or other arch base)
+# arch linux (or other arch base)
 # ./archStep1.sh
 ```
 
