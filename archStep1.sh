@@ -15,6 +15,7 @@ npm install --global browser-sync
 npm install --global yarn
 npm install --global neovim
 npm install --global typescript
+npm install --global mathjs
 
 sudo python3 -m pip install --user --upgrade pynvim
 sudo python3 -m pip install --user --upgrade pylint
