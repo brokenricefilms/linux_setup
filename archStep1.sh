@@ -3,7 +3,7 @@ sudo pacman-mirrors --fasttrack && sudo pacman -Syyu --noconfirm
 
 sudo pacman -S yay tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay ruby ripgrep kitty nnn exa noto-fonts-emoji lua aria2 onlyoffice-desktopeditors foliate tig clang nodejs npm youtube-dl bat --noconfirm
 
-yay -S gnome-shell-pomodoro universal-ctags brave-beta-bin --noconfirm
+yay -S universal-ctags brave-beta-bin --noconfirm
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
