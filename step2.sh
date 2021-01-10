@@ -18,7 +18,6 @@ git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/calculatorOnIOS.git
 # git clone git@github.com:thuanpham2311/ok.git
 # git clone git@github.com:thuanpham2311/stuDarkTheme
-# git clone git@github.com:thuanpham2311/cssbattle
 
 mkdir ~/backupDotfile
 mv ~/.config/nvim         ~/backupDotfile
@@ -35,9 +34,7 @@ ln -sf ~/git/dotfiles/.fonts ~/.fonts ; cd ~/git/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/git/dotfiles/ssh/config ~/.ssh/config
 ln -sf ~/git/dotfiles/.Xmodmap ~/.Xmodmap
 ln -sf ~/git/dotfiles/kitty/ ~/.config/kitty/
-# change default terminal form gnome terminal to kitty
-sudo pacman -Rs gnome-terminal --noconfirm
-sudo ln -s /usr/bin/terminator /usr/bin/gnome-terminal
+sudo ln -s /usr/bin/kitty /usr/bin/gnome-terminal
 ln -sf ~/git/ok/.tinypng ~/.tinypng
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf
