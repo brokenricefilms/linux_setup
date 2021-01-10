@@ -11,7 +11,7 @@ sudo apt update -y
 sudo apt install brave-browser -y
 
 # necessary
-sudo apt install zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript -y
+sudo apt install zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript bashtop -y
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
