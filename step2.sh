@@ -34,7 +34,7 @@ ln -sf ~/git/dotfiles/.fonts ~/.fonts ; cd ~/git/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/git/dotfiles/ssh/config ~/.ssh/config
 ln -sf ~/git/dotfiles/.Xmodmap ~/.Xmodmap
 ln -sf ~/git/dotfiles/kitty/ ~/.config/kitty/
-sudo ln -s /usr/bin/kitty /usr/bin/gnome-terminal
+sudo ln -sf /usr/bin/kitty /usr/bin/gnome-terminal
 ln -sf ~/git/ok/.tinypng ~/.tinypng
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/git/dotfiles/keybindings.dconf
 dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/git/dotfiles/gnome-terminal-profiles.dconf

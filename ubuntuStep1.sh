@@ -11,7 +11,7 @@ sudo apt update -y
 sudo apt install brave-browser -y
 
 # necessary
-sudo apt install zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo unrar moreutils nnn kitty autokey-gtk exa universal-ctags lua5.4 -y
+sudo apt install zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh zsh-autosuggestions zsh-syntax-highlighting ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript -y
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
@@ -35,14 +35,6 @@ sudo gem install neovim
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-# go lang
-cd ~/Downloads
-wget https://golang.org/dl/go1.15.6.linux-amd64.tar.gz
-tar -zxvf *.tar.gz
-sudo mv go /usr/local/
-echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
-cd
 
 # zsh stuff
 cd /usr/share/
