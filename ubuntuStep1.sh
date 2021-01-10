@@ -24,6 +24,9 @@ npm install --global yarn
 npm install --global neovim
 npm install --global typescript
 
+sudo python3 -m pip install --user --upgrade pynvim
+sudo python3 -m pip install --user --upgrade pylint
+
 # ruby
 sudo apt install ruby-dev -y
 # optional neovim
