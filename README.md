@@ -6,8 +6,15 @@
 
 ## Demo
 
+### Dark
+
 ![](./img/linuxSetup1.png)
 ![](./img/linuxSetup2.png)
+
+### Light
+
+![](./img/linuxSetup1_light.png)
+![](./img/linuxSetup2_light.png)
 
 ---
 
@@ -29,63 +36,42 @@ cd linux_setup
 
 ---
 
-1.  Setting
+## Stuff
 
-    1. Theme > yaru-dark (ubuntu)
-    2. Background
-    3. Shortcut
-       1. Flameshot `flameshot gui <super>+<shift>+<S>`
-    4. Language > input > Vietnamese > ibus-bamboo
-    5. Time format > USA
-    6. Power > blank screen > never
-    7. Privacy
+1. pop shell
 
-2.  Gnome tweaks
+```bash
+cd ~/.local/share/gnome-shell/extensions/
+git clone https://github.com/pop-os/shell
+cd shell
+make local-install
+```
 
-    1. top bar > format stuff
-    2. windows > center new windows
-    3. keyboard > { remap caps lock -> esc }
+2. hide top bar
 
-3.  Extension
+```bash
+cd ~/.local/share/gnome-shell/extensions/
+git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
+cd hidetopbar@mathieu.bidon.ca
+make schemas
+cd ..
+gnome-extensions enable hidetopbar@mathieu.bidon.ca
+```
 
-    1. pop shell
+> ok let restart gnome run this: `gnome-shell --replace &`
+> or just restart
 
-    ```bash
-    cd ~/.local/share/gnome-shell/extensions/
-    git clone https://github.com/pop-os/shell
-    cd shell
-    sh rebuild.sh
-    ```
-
-    2. hide top bar
-
-    ```bash
-    cd ~/.local/share/gnome-shell/extensions/
-    git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
-    cd hidetopbar@mathieu.bidon.ca
-    make schemas
-    cd ..
-    gnome-extensions enable hidetopbar@mathieu.bidon.ca
-    ```
-
-    > ok let restart gnome run this: `gnome-shell --replace &`
-    > or just restart
-
-4.  I don't like dock (For Ubuntu user, Fedora don't need do that)
+3.  I don't like dock (For Ubuntu user, Fedora don't need do that)
 
 `sudo apt remove gnome-shell-extension-ubuntu-dock`
 
-5.  update stuff
+4. `./step2.sh`
 
-    1. Restart
-    2. SSH key setup
-       `ssh-keygen`
+5. Edit file `~/.gitconfig` > change
 
-6.  Edit file `./step2_gitSetup` > change
+   > code it for yourself
 
-    > code it for yourself
-
-    > don't edit If want **my name and email** in your git system ;)
+   > don't edit If want **my name and email** in your git system ;)
 
 ```bash
 echo "
@@ -94,10 +80,6 @@ name = #your_name
 email = #your_email
 " > ~/.gitconfig
 ```
-
----
-
-`./step2_gitSetup`
 
 ```bash
  ______
