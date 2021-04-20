@@ -20,6 +20,8 @@ npm install --global neovim
 npm install --global typescript
 npm install --global mathjs
 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
 sudo python3 -m pip install --user --upgrade pynvim
 sudo python3 -m pip install --user --upgrade pylint
 gem install neovim
