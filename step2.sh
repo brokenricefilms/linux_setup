@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
-mkdir ~/git ; cd ~/
+mkdir ~/syns ; cd ~/
 
 git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/dotfiles.git
+
+# cd ~/syns/
+# git clone git@github.com:thuanpham2311/ok.git
 
 mkdir ~/backupDotfile
 mv ~/.config/nvim         ~/backupDotfile
@@ -30,7 +33,7 @@ sudo ln -sf /usr/bin/kitty /usr/bin/gnome-terminal
 # ln -sf ~/dotfiles/dunst ~/.config/
 # sudo ln -sf ~/dotfiles/90-touchpad.conf /etc/X11/xorg.conf.d/
 
-ln -sf ~/ok/.tinypng ~/.tinypng
+ln -sf ~/syns/ok/.tinypng ~/.tinypng
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/ssh/config ~/.ssh/config
@@ -42,4 +45,4 @@ ln -sf ~/dotfiles/.selected_editor ~/.selected_editor
 ln -sf ~/dotfiles/.fonts ~/.fonts ; cd ~/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 
-cd
+cd ~/
