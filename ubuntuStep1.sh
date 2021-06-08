@@ -11,7 +11,7 @@ sudo add-apt-repository ppa:apandada1/foliate
 # sudo apt install brave-browser -y
 
 # necessary
-sudo apt install firefox zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript bashtop tig bat libx11-dev libxft-dev libharfbuzz-dev -y
+sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript bashtop tig bat libx11-dev libxft-dev libharfbuzz-dev -y
 
 
 # use npm install --global without sudo

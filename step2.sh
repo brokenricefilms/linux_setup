@@ -40,9 +40,11 @@ ln -sf ~/dotfiles/ssh/config ~/.ssh/config
 ln -sf ~/dotfiles/nvim ~/.config
 ln -sf ~/dotfiles/kitty/ ~/.config/
 ln -sf ~/dotfiles/bat/ ~/.config/
+ln -sf ~/dotfiles/copyq.conf ~/.config/copyq/
 ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.selected_editor ~/.selected_editor
 ln -sf ~/dotfiles/.fonts ~/.fonts ; cd ~/dotfiles/.fonts ; fc-cache -v
+ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 
 cd ~/
