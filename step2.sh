@@ -47,4 +47,12 @@ ln -sf ~/dotfiles/.fonts ~/.fonts ; cd ~/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 
+# ==color paper==
+echo "
+set background=light
+colorscheme PaperColor" > ~/dotfiles/nvim/after/plugin/themeControl.vim
+echo "include ./paper.conf" > ~/dotfiles/kitty/theme.conf
+echo "--theme=\"GitHub\"" > ~/dotfiles/bat/config
+cat ~/dotfiles/alacritty/alacritty-light.yml > ~/dotfiles/alacritty/alacritty.yml
+
 cd ~/
