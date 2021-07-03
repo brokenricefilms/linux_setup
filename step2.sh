@@ -47,7 +47,7 @@ ln -sf ~/dotfiles/.fonts ~/.fonts ; cd ~/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 
-# ==color paper==
+cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "
 set background=light
 colorscheme PaperColor" > ~/dotfiles/nvim/after/plugin/themeControl.vim
