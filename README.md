@@ -30,23 +30,6 @@
 
 - [ ] **Edit file ~/.gitconfig** `nvim ~/.gitconfig` -by default: gitconfig using my email address-
 
----
-
-## Freaking BUGS
-
-1. Firefox tearing???????
-
-`layers.acceleration.force-enabled` set it true and reboot
-
-2. Fedora I have issue with Wayland so switch to Xorg
-
-```
-sudo nvim /etc/gdm/custom.conf
-
-# should be
-WaylandEnable=false
-```
-
 ## Contributing workflow
 
 Here’s how we suggest you go about proposing a change to this project:
