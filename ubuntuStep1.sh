@@ -48,10 +48,10 @@ echo "Enter your passwork"
 chsh -s "$(which zsh)"
 
 # ubuntu
-# mkdir ~/app ; cd ~/app
-# git clone https://github.com/pop-os/shell
-# cd ~/app/shell
-# make local-install
-# cd
+mkdir ~/app ; cd ~/app
+git clone https://github.com/pop-os/shell
+cd ~/app/shell
+make local-install
+cd
 
 echo "need restart pc"
