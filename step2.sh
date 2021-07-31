@@ -46,6 +46,7 @@ ln -sf ~/dotfiles/.selected_editor ~/.selected_editor
 ln -sf ~/dotfiles/.fonts ~/.fonts ; cd ~/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
+ln -sf ~/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
 
 cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "
