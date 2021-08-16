@@ -29,7 +29,6 @@ sudo ln -sf /usr/bin/kitty /usr/bin/gnome-terminal
 # i3wm
 # ln -sf ~/dotfiles/i3 ~/.config/
 # ln -sf ~/dotfiles/rofi ~/.config/
-# ln -sf ~/dotfiles/compton.conf ~/.config/
 # ln -sf ~/dotfiles/dunst ~/.config/
 # sudo ln -sf ~/dotfiles/90-touchpad.conf /etc/X11/xorg.conf.d/
 
