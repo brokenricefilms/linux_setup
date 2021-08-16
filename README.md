@@ -1,6 +1,6 @@
 # Linux setup
 
-- **DE support: Gnome, I3wm**
+- **DE support: Gnome**
 
 ## Demo
 
