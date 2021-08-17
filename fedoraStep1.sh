@@ -10,8 +10,10 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:lamlng/Fedora_33/home:lamlng.repo
 sudo dnf install ibus-bamboo
 
-sudo dnf install copyq tmux curl wget git neofetch htop gnome-tweaks trash-cli flameshot python3-pip tldr net-tools xclip speedtest-cli neovim python3-neovim fd-find aria2 tree cowsay npm fzf npm ffmpeg youtube-dl mpv gnome-shell-extension-pop-shell tig universal-ctags nnn kitty ripgrep unrar exa clangd moreutils foliate bat -y
+sudo dnf install copyq tmux curl wget git neofetch htop gnome-tweaks trash-cli flameshot python3-pip tldr net-tools xclip speedtest-cli neovim python3-neovim fd-find aria2 tree cowsay npm fzf npm ffmpeg youtube-dl mpv gnome-shell-extension-pop-shell tig nnn kitty ripgrep unrar exa moreutils foliate bat util-linux-user zsh -y
 
+# use npm install --global without sudo
+npm config set prefix ~/.npm
 
 npm install --global prettier
 # go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
