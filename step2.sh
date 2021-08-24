@@ -23,7 +23,7 @@ curl -fsSL https://starship.rs/install.sh | bash
 
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/dotfiles/keybindings.dconf
 dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/dotfiles/gnome-terminal-profiles.dconf
-sudo ln -sf /usr/bin/kitty /usr/bin/gnome-terminal
+sudo ln -sf /usr/bin/alacritty /usr/bin/gnome-terminal
 
 ln -sf ~/syns/ok/.tinypng ~/.tinypng
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
