@@ -39,6 +39,9 @@ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md
 chmod a+x gh-md-toc
 cd
 
+gh extension install mislav/gh-branch
+gh extension install kawarimidoll/gh-graph
+
 echo "Switch to Zsh from Bash"
 echo "Enter your passwork"
 chsh -s "$(which zsh)"
