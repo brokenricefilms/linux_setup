@@ -1,18 +1,14 @@
 #!/usr/bin/env bash
 
-mkdir ~/syns ; cd ~/
-
 git clone https://github.com/thuanpham2311/dotfiles
 # git clone git@github.com:thuanpham2311/dotfiles.git
 
-# cd ~/syns/
+# mkdir syns ; cd ~/syns/
 # git clone git@github.com:thuanpham2311/ok.git
 
 mkdir ~/backupDotfile
 mv ~/.config/nvim         ~/backupDotfile
 mv ~/.config/kitty        ~/backupDotfile
-mv ~/.config/i3        ~/backupDotfile
-mv ~/.config/rofi        ~/backupDotfile
 mv ~/.fonts               ~/backupDotfile
 
 cd ~/dotfiles/zsh/functions/
@@ -22,9 +18,9 @@ cd
 curl -fsSL https://starship.rs/install.sh | bash
 
 dconf load /org/gnome/desktop/wm/keybindings/ < ~/dotfiles/keybindings.dconf
-dconf dump /org/gnome/terminal/legacy/profiles:/ < ~/dotfiles/gnome-terminal-profiles.dconf
-sudo ln -sf /usr/bin/alacritty /usr/bin/gnome-terminal
+sudo ln -sf /usr/bin/kitty /usr/bin/gnome-terminal
 
+ln -sf ~/dotfiles/bin/ ~/
 ln -sf ~/syns/ok/.tinypng ~/.tinypng
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
