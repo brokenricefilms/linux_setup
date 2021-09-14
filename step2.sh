@@ -38,7 +38,9 @@ ln -sf ~/dotfiles/touchcursor ~/.config
 cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "
 set background=light
-colorscheme PaperColor" > ~/dotfiles/nvim/after/plugin/themeControl.vim
+colorscheme zenbones
+highlight markdownH1 guifg=#2C363C guibg=NONE guisp=NONE gui=bold
+" > ~/dotfiles/nvim/after/plugin/themeControl.vim
 echo "include ./paper.conf" > ~/dotfiles/kitty/theme.conf
 echo "--theme=\"GitHub\"" > ~/dotfiles/bat/config
 cat ~/dotfiles/alacritty/alacritty-light.yml > ~/dotfiles/alacritty/alacritty.yml
