@@ -5,6 +5,8 @@ git clone https://github.com/thuanpham2311/dotfiles
 
 # mkdir syns ; cd ~/syns/
 # git clone git@github.com:thuanpham2311/ok.git
+# git clone git@github.com:thuanpham2311/drive.git
+# git clone git@github.com:thuanpham2311/note.git
 
 mkdir ~/backupDotfile
 mv ~/.config/nvim         ~/backupDotfile
