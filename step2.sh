@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 
-git clone https://github.com/thuanpham2311/dotfiles
-# git clone git@github.com:thuanpham2311/dotfiles.git
+cd ~/ ; git clone git@github.com:thuanpham2311/dotfiles.git
 
-# mkdir syns ; cd ~/syns/
-# git clone git@github.com:thuanpham2311/ok.git
-# git clone git@github.com:thuanpham2311/drive.git
-# git clone git@github.com:thuanpham2311/note.git
+mkdir ~/sync/ ; cd ~/sync/
+git clone git@github.com:thuanpham2311/ok.git
+git clone git@github.com:thuanpham2311/drive.git
+git clone git@github.com:thuanpham2311/note.git
 
 mkdir ~/backupDotfile
 mv ~/.config/nvim         ~/backupDotfile
@@ -23,7 +22,7 @@ dconf load /org/gnome/desktop/wm/keybindings/ < ~/dotfiles/keybindings.dconf
 sudo ln -sf /usr/bin/kitty /usr/bin/gnome-terminal
 
 ln -sf ~/dotfiles/bin/ ~/
-ln -sf ~/syns/ok/.tinypng ~/.tinypng
+ln -sf ~/sync/ok/.tinypng ~/.tinypng
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/ssh/config ~/.ssh/config
@@ -45,6 +44,4 @@ highlight markdownH1 guifg=#2C363C guibg=NONE guisp=NONE gui=bold
 " > ~/dotfiles/nvim/after/plugin/themeControl.vim
 echo "include ./paper.conf" > ~/dotfiles/kitty/theme.conf
 echo "--theme=\"GitHub\"" > ~/dotfiles/bat/config
-cat ~/dotfiles/alacritty/alacritty-light.yml > ~/dotfiles/alacritty/alacritty.yml
-
 cd ~/
