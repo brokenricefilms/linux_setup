@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
-cd ~/ ; git clone git@github.com:thuanpham2311/dotfiles.git
+cd ~/ ; git clone https://github.com/thuanpham2311/dotfiles
+# cd ~/ ; git clone git@github.com:thuanpham2311/dotfiles.git
 
-mkdir ~/sync/ ; cd ~/sync/
-git clone git@github.com:thuanpham2311/ok.git
-git clone git@github.com:thuanpham2311/note.git
-cd ~/.local/share/ ; git clone git@github.com:thuanpham2311/zet.git
-cd
+# mkdir ~/sync/ ; cd ~/sync/
+# git clone git@github.com:thuanpham2311/ok.git
+# git clone git@github.com:thuanpham2311/note.git
+# cd ~/.local/share/ ; git clone git@github.com:thuanpham2311/garden.git
+# cd
 
 mkdir ~/backupDotfile
 mv ~/.config/nvim         ~/backupDotfile
