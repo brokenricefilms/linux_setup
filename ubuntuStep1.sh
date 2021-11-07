@@ -10,7 +10,7 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 sudo apt update -y
 sudo apt install brave-browser -y
 
-sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript bashtop tig bat libx11-dev libxft-dev libharfbuzz-dev -y
+sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript bashtop tig bat wl-clipboard -y
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
@@ -27,6 +27,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 sudo python3 -m pip install --user --upgrade pynvim
 sudo python3 -m pip install --user --upgrade pylint
+sudo python3 -m pip install --user --upgrade emoji-fzf
 
 sudo apt-get install ruby-dev ruby-full build-essential zlib1g-dev -y
 gem install jekyll bundler neovim
