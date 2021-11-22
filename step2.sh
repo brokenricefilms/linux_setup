@@ -14,6 +14,8 @@ mv ~/.config/nvim         ~/backupDotfile
 mv ~/.config/kitty        ~/backupDotfile
 mv ~/.fonts               ~/backupDotfile
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 cd ~/dotfiles/zsh/functions/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
 git clone https://github.com/Aloxaf/fzf-tab
