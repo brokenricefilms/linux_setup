@@ -29,6 +29,8 @@ sudo python3 -m pip install --user --upgrade pynvim
 sudo python3 -m pip install --user --upgrade pylint
 sudo python3 -m pip install --user --upgrade emoji-fzf
 
+pip install emoji-fzf
+
 sudo apt-get install ruby-dev ruby-full build-essential zlib1g-dev -y
 gem install jekyll bundler neovim
 

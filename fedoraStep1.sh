@@ -23,6 +23,8 @@ npm install --global yarn
 npm install --global neovim
 npm install --global typescript
 
+pip install emoji-fzf
+
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 # nvim setup
