@@ -16,6 +16,8 @@ mv ~/.fonts               ~/backupDotfile
 
 cd ~/dotfiles/zsh/functions/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting
+git clone https://github.com/Aloxaf/fzf-tab
+git clone https://github.com/chitoku-k/fzf-zsh-completions
 cd
 
 curl -fsSL https://starship.rs/install.sh | bash
