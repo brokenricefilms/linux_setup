@@ -31,8 +31,8 @@ ln -sf ~/dotfiles/bin/ ~/
 ln -sf ~/sync/ok/.tinypng ~/.tinypng
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
 ln -sf ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
-ln -sf ~/dotfiles/ssh/config ~/.ssh/config
-ln -sf ~/dotfiles/nvim ~/.config
+ln -sf ~/dotfiles/ssh/config ~/.ssh/config/
+ln -sf ~/dotfiles/nvim ~/.config/
 ln -sf ~/dotfiles/kitty/ ~/.config/
 ln -sf ~/dotfiles/bat/ ~/.config/
 ln -sf ~/dotfiles/copyq.conf ~/.config/copyq/copyq.conf
@@ -40,7 +40,8 @@ ln -sf ~/dotfiles/git/gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.selected_editor ~/.selected_editor
 ln -sf ~/sync/ok/.fonts ~/.fonts ; cd ~/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
-ln -sf ~/dotfiles/touchcursor ~/.config
+ln -sf ~/dotfiles/touchcursor ~/.config/
+ln -sf ~/dotfiles/starship.toml ~/.config/
 
 cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "
