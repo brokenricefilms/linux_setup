@@ -22,6 +22,7 @@ npm install --global browser-sync
 npm install --global yarn
 npm install --global neovim
 npm install --global typescript
+npm install --global markmap-cli
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
