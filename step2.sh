@@ -37,6 +37,7 @@ ln -sf ~/dotfiles/kitty/ ~/.config/
 ln -sf ~/dotfiles/bat/ ~/.config/
 ln -sf ~/dotfiles/copyq.conf ~/.config/copyq/copyq.conf
 ln -sf ~/dotfiles/git/gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/git/config.yml ~/.config/gh/
 ln -sf ~/dotfiles/.selected_editor ~/.selected_editor
 ln -sf ~/sync/ok/.fonts ~/.fonts ; cd ~/dotfiles/.fonts ; fc-cache -v
 ln -sf ~/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
