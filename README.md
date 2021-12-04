@@ -1,5 +1,19 @@
 # Linux setup
 
+**↓↓Table of Contents↓↓**
+
+<details>
+<summary>Click here to show.</summary>
+
+- [Linux setup](#linux-setup)
+  - [Demo](#demo)
+  - [Install check list](#install-check-list)
+  - [addition](#addition)
+
+---
+
+</details>
+
 - **DE support: Gnome**
 
 ## Demo
@@ -12,7 +26,7 @@
 
 ---
 
-## Check list
+## Install check list
 
 **Note: you should edit script for your custom**
 
@@ -53,3 +67,23 @@
   ```
 
 - [ ] **Edit file ~/.gitconfig** `nvim ~/.gitconfig` -by default: gitconfig using my email address-
+
+## addition
+
+> no sudo password (for master user)
+
+```bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/sudo_master | bash
+```
+
+> install flatpak and more stuff
+
+```bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/installFlatpak.sh | bash
+```
+
+> ubuntu debloat
+
+```bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/ubuntuDebloat.sh | bash
+```

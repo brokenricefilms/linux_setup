@@ -2,4 +2,4 @@
 
 # no typing passwd, i'm so lazy.
 # not security, do what you want
-echo "master ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+sudo echo "master ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
