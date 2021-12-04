@@ -91,8 +91,17 @@ curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/ubuntuDe
 
 ## personal copy and pasted
 
+> don't copy that if you have my github account 😂
+
 ```bash
 curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/fedoraStep1.sh | bash
 curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/installFlatpak.sh | bash
-curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2_personal.sh | bash
+while true; do
+    read -p "Do you have ssh key connect to github?" yn
+    case $yn in
+        [Yy]* ) curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2_personal.sh | bash;;
+        [Nn]* ) echo "hey, ssh-keygen and copy pasted to github bros";;
+        * ) echo "press y or no bros";;
+    esac
+done
 ```
