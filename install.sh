@@ -19,4 +19,4 @@ while true; do
     esac
 done
 
-https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2.sh | bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2.sh | bash
