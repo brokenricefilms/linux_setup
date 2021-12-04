@@ -10,6 +10,8 @@ while true; do
     esac
 done
 
+ssh-keygen ; gedit ~/.ssh/id_rsa.pub &
+
 curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/installFlatpak.sh | bash
 
 curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/sudo_master | bash
