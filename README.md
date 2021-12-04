@@ -15,8 +15,6 @@
 
 </details>
 
-- **DE support: Gnome**
-
 ## Demo
 
 **You can watch my Talk show Oct 15, 2021: my setup for coding, daily use**
@@ -27,81 +25,18 @@
 
 ---
 
-## Install check list
-
-**Note: you should edit script for your custom**
-
-- [ ] Run step1 `./????step1`
-
-  **Choise your script base your linux distro**
-
-  > `./archStep1.sh` -- Arch base (pacman pkg) like manjaro, arco, artix,...--
-
-  ```bash
-  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/archStep1.sh | bash
-  ```
-
-  > `./ubuntuStep1.sh` -- Debian base (apt pkg) like ubuntu, popOS, mint,...--
-
-  ```bash
-  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/ubuntuStep1.sh | bash
-  ```
-
-  > `./fedoraStep1.sh` -- Using dnf pkg like fedora, RedHat, openSUSE,...--
-
-  ```bash
-  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/fedoraStep1.sh | bash
-  ```
-
-- [ ] Run step2 `./step2.sh`
-
-  > this for everyone, **Note: your old file saved as ~/backupDotfile**
-
-  ```bash
-  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2.sh | bash
-  ```
-
-  > this for my personal, don't copy script below
-
-  ```bash
-  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2_personal.sh | bash
-  ```
-
-- [ ] **Edit file ~/.gitconfig** `nvim ~/.gitconfig` -by default: gitconfig using my email address-
-
-## addition
-
-> no sudo password (for master user)
+- De support: gnome
+- just copy and pasted command below to you cli
+- Edit file `~/.gitconfig` cuz by default use my email for git
 
 ```bash
-curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/sudo_master | bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/install.sh --output install.sh ; chmod +x ./install.sh ; ./install.sh
 ```
 
-> install flatpak and more stuff
+---
+
+> personal: don't copy that if you have my github account 😂
 
 ```bash
-curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/installFlatpak.sh | bash
-```
-
-> ubuntu debloat
-
-```bash
-curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/ubuntuDebloat.sh | bash
-```
-
-## personal copy and pasted
-
-> don't copy that if you have my github account 😂
-
-```bash
-curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/fedoraStep1.sh | bash
-curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/installFlatpak.sh | bash
-while true; do
-    read -p "Do you have ssh key connect to github?" yn
-    case $yn in
-        [Yy]* ) curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2_personal.sh | bash;;
-        [Nn]* ) echo "hey, ssh-keygen and copy pasted to github bros";;
-        * ) echo "press y or no bros";;
-    esac
-done
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/install_personal.sh --output install_personal.sh ; chmod +x ./install_personal.sh ; ./install_personal.sh
 ```
