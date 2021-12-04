@@ -18,25 +18,38 @@
 
 - [ ] Run step1 `./????step1`
 
-  - **Choise your script base your linux distro**
-  - `./archStep1.sh` -- Arch base (pacman pkg) like manjaro, arco, artix,...--
-  - `./ubuntuStep1.sh` -- Debian base (apt pkg) like ubuntu, popOS, mint,...--
-  - `./fedoraStep1.sh` -- Using dnf pkg like fedora, RedHat, openSUSE,...--
+  **Choise your script base your linux distro**
+
+  > `./archStep1.sh` -- Arch base (pacman pkg) like manjaro, arco, artix,...--
+
+  ```bash
+  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/archStep1.sh | bash
+  ```
+
+  > `./ubuntuStep1.sh` -- Debian base (apt pkg) like ubuntu, popOS, mint,...--
+
+  ```bash
+  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/ubuntuStep1.sh | bash
+  ```
+
+  > `./fedoraStep1.sh` -- Using dnf pkg like fedora, RedHat, openSUSE,...--
+
+  ```bash
+  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/fedoraStep1.sh | bash
+  ```
 
 - [ ] Run step2 `./step2.sh`
-      **Note: your old file saved as ~/backupDotfile**
+
+  > this for everyone, **Note: your old file saved as ~/backupDotfile**
+
+  ```bash
+  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2.sh | bash
+  ```
+
+  > this for my personal, don't copy script below
+
+  ```bash
+  curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2_personal.sh | bash
+  ```
 
 - [ ] **Edit file ~/.gitconfig** `nvim ~/.gitconfig` -by default: gitconfig using my email address-
-
-## Contributing workflow
-
-Here’s how we suggest you go about proposing a change to this project:
-
-1. [Fork this project][fork] to your account.
-2. [Create a branch][branch] for the change you intend to make.
-3. Make your changes to your fork.
-4. [Send a pull request][pr] from your fork’s branch to our `master` branch.
-
-[fork]: https://help.github.com/articles/fork-a-repo/
-[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
-[pr]: https://help.github.com/articles/using-pull-requests/
