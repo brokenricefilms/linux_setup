@@ -8,7 +8,7 @@
 
 ---
 
-- De support: gnome
+- Support: Gnome (Fedora, Ubuntu, Arch) **best support right now is fedora**
 - just copy and pasted command below to you cli
 - Edit file `~/.gitconfig` cuz by default use my email for git
 
