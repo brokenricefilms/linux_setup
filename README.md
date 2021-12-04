@@ -1,22 +1,5 @@
 # Linux setup
 
-**↓↓Table of Contents↓↓**
-
-<details>
-<summary>Click here to show.</summary>
-
-- [Linux setup](#linux-setup)
-  - [Demo](#demo)
-  - [Install check list](#install-check-list)
-  - [addition](#addition)
-  - [personal copy and pasted](#personal-copy-and-pasted)
-
----
-
-</details>
-
-## Demo
-
 **You can watch my Talk show Oct 15, 2021: my setup for coding, daily use**
 
 ⇒ <https://youtu.be/2OhzSP1uGLc>
