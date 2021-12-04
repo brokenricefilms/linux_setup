@@ -7,7 +7,7 @@
 ---
 
 - Support: Gnome (Fedora, Ubuntu, Arch) **best support right now is fedora**
-- just copy and pasted command below to you cli
+- just copy and pasted command below to you cli (your old config file stuff will be in ~/backupDotfile)
 - Edit file `~/.gitconfig` cuz by default use my email for git
 
 ```bash
