@@ -87,3 +87,11 @@ curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/installF
 ```bash
 curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/ubuntuDebloat.sh | bash
 ```
+
+## personal copy and pasted
+
+```bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/fedoraStep1.sh | bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/installFlatpak.sh | bash
+curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/step2_personal.sh | bash
+```
