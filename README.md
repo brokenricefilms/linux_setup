@@ -1,5 +1,3 @@
-# Linux setup
-
 **You can watch my Talk show Oct 15, 2021: my setup for coding, daily use**
 
 ⇒ <https://youtu.be/2OhzSP1uGLc>
