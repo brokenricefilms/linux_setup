@@ -11,7 +11,6 @@ sudo rm -rf /snap
 sudo rm -rf /var/snap
 sudo rm -rf /var/lib/snapd
 
-sudo apt remove --purge gnome-calculator -y
 sudo apt autoremove --purge gnome-calendar -y
 sudo apt-get autoremove --purge gucharmap* -y
 sudo apt-get autoremove --purge gnome-contacts* -y
