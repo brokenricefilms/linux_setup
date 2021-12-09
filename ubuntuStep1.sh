@@ -43,6 +43,10 @@ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md
 chmod a+x gh-md-toc
 cd
 
+# no complicated shit
+sudo ln -sf /usr/bin/fdfind /usr/bin/fd
+sudo ln -sf /usr/bin/batcat /usr/bin/bat
+
 echo "Switch to Zsh from Bash"
 echo "Enter your passwork"
 chsh -s "$(which zsh)"
