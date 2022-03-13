@@ -49,6 +49,8 @@ ln -sf ~/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
 ln -sf ~/dotfiles/touchcursor ~/.config/
 ln -sf ~/dotfiles/starship.toml ~/.config/
 ln -sf ~/dotfiles/.ripgreprc ~/
+ln -sf ~/dotfiles/topgrade.toml ~/.config/topgrade.toml
+ln -sf ~/dotfiles/input-remapper/ ~/.config/input-remapper/
 
 cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "

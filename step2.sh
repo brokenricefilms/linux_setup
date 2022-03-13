@@ -2,13 +2,6 @@
 
 cd ~/
 git clone https://github.com/thuanpham2311/dotfiles
-# cd ~/ ; git clone git@github.com:thuanpham2311/dotfiles.git
-
-# mkdir ~/sync/ ; cd ~/sync/
-# git clone git@github.com:thuanpham2311/ok.git
-# git clone git@github.com:thuanpham2311/note.git
-# cd ~/.local/share/ ; git clone git@github.com:thuanpham2311/garden.git
-# cd
 
 mkdir ~/backupDotfile
 mv ~/.config/nvim ~/backupDotfile
@@ -48,6 +41,8 @@ ln -sf ~/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
 ln -sf ~/dotfiles/touchcursor ~/.config/
 ln -sf ~/dotfiles/starship.toml ~/.config/
 ln -sf ~/dotfiles/.ripgreprc ~/
+ln -sf ~/dotfiles/topgrade.toml ~/.config/topgrade.toml
+ln -sf ~/dotfiles/input-remapper/ ~/.config/input-remapper/
 
 cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "
