@@ -10,7 +10,7 @@ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable ma
 sudo apt update -y
 sudo apt install brave-browser -y
 
-sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh ibus-bamboo unrar moreutils nnn kitty exa universal-ctags lua5.4 node-typescript bashtop tig bat wl-clipboard -y
+sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh ibus-bamboo unrar moreutils kitty exa universal-ctags lua5.4 node-typescript bashtop tig bat wl-clipboard -y
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
