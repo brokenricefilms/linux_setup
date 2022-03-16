@@ -43,6 +43,8 @@ ln -sf ~/dotfiles/starship.toml ~/.config/
 ln -sf ~/dotfiles/.ripgreprc ~/
 ln -sf ~/dotfiles/topgrade.toml ~/.config/topgrade.toml
 ln -sf ~/dotfiles/input-remapper/ ~/.config/input-remapper/
+ln -sf ~/dotfiles/obs-studio/scenes ~/.config/obs-studio/basic/scenes/
+ln -sf ~/dotfiles/obs-studio/{*.png,*.gif} ~/.config/obs-studio/
 
 cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "
