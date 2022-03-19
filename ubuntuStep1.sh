@@ -5,12 +5,7 @@ sudo apt update -y
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo add-apt-repository ppa:apandada1/foliate
 
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update -y
-sudo apt install brave-browser -y
-
-sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono gnome-shell-pomodoro simplescreenrecorder ripgrep foliate zsh ibus-bamboo unrar moreutils kitty exa universal-ctags lua5.4 node-typescript bashtop tig bat wl-clipboard -y
+sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono ripgrep foliate zsh ibus-bamboo unrar moreutils exa universal-ctags lua5.4 node-typescript bashtop tig bat wl-clipboard kitty -y
 
 # use npm install --global without sudo
 npm config set prefix ~/.npm
@@ -36,9 +31,10 @@ sudo apt-get install ruby-dev ruby-full build-essential zlib1g-dev -y
 gem install jekyll bundler neovim
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-mkdir ~/bin ; cd ~/bin
+mkdir ~/bin
+cd ~/bin
 wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
 chmod a+x gh-md-toc
 cd
@@ -50,11 +46,5 @@ sudo ln -sf /usr/bin/batcat /usr/bin/bat
 echo "Switch to Zsh from Bash"
 echo "Enter your passwork"
 chsh -s "$(which zsh)"
-
-mkdir ~/app ; cd ~/app
-git clone https://github.com/pop-os/shell
-cd ~/app/shell
-make local-install
-cd
 
 echo "need restart pc"
