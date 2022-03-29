@@ -2,7 +2,7 @@
 
 sudo pacman-mirrors --geoip && sudo pacman -Syyu
 
-sudo pacman -S tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay ruby ripgrep kitty exa noto-fonts-emoji lua aria2 foliate tig clang nodejs npm youtube-dl bat python-pip git base-devel wget curl fzf dunst python-i3ipc --noconfirm
+sudo pacman -S tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay ruby ripgrep kitty exa noto-fonts-emoji lua aria2 foliate tig clang nodejs npm youtube-dl bat python-pip git base-devel wget curl fzf dunst python-i3ipc xdg-desktop-portal xdg-desktop-portal-gnome --noconfirm
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -33,4 +33,4 @@ gh extension install kawarimidoll/gh-graph
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
