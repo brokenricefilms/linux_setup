@@ -1,5 +1,11 @@
 #! /usr/bin/env sh
 
+cd /tmp
+wget https://github.com/ful1e5/Google_Cursor/releases/download/v1.1.3/GoogleDot-Blue.tar.gz
+tar -xvf GoogleDot-Blue.tar.gz
+sudo mv GoogleDot-Blue/ /usr/share/icons/
+cd -
+
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 cd ~/dotfiles/zsh/functions/
