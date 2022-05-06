@@ -45,10 +45,13 @@ ln -sf ~/dotfiles/touchcursor ~/.config/
 ln -sf ~/dotfiles/starship.toml ~/.config/
 ln -sf ~/dotfiles/.ripgreprc ~/
 ln -sf ~/dotfiles/topgrade.toml ~/.config/topgrade.toml
-ln -sf ~/dotfiles/input-remapper/ ~/.config/input-remapper/
+ln -sf ~/dotfiles/input-remapper/ ~/.config/
 ln -sf ~/dotfiles/thefuck~/dotfiles/thefuck/settings.py ~/.config/thefuck/
 ln -sf ~/dotfiles/mimeapps.list ~/.config/mimeapps.list
 ln -sf ~/dotfiles/htop/htoprc ~/.config/htop/
+ln -sf ~/sync/obs-studio/ ~/.config/
+ln -sf ~/dotfiles/foot ~/.config/
+ln -sf ~/sync/ok/ibus-bamboo.macro.text ~/.config/ibus-bamboo/
 
 cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
 echo "
