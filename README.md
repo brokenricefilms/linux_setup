@@ -6,18 +6,10 @@
 
 ---
 
-- Support: Gnome (Fedora, Ubuntu, Arch) **best support right now is fedora**
+- Support: Gnome (Fedora, Ubuntu, Arch) **best support right now is arch**
 - just copy and pasted command below to you cli (your old config file stuff will be in ~/backupDotfile)
 - Edit file `~/.gitconfig` cuz by default use my email for git
 
 ```bash
 curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/install.sh --output install.sh ; chmod +x ./install.sh ; ./install.sh
-```
-
----
-
-> personal: don't copy that if you have my github account 😂
-
-```bash
-curl https://raw.githubusercontent.com/thuanpham2311/linux_setup/master/install_personal.sh --output install_personal.sh ; chmod +x ./install_personal.sh ; ./install_personal.sh
 ```
