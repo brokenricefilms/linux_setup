@@ -25,8 +25,6 @@ if hash dnf 2>/dev/null; then
   -y
 
   curl -fsSL https://deno.land/install.sh | sh
-
-  sudo dnf copr enable atim/nushell -y && sudo dnf install nushell -y
 fi
 
 # for arch base
