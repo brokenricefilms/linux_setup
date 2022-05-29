@@ -62,3 +62,5 @@ highlight markdownH1 guifg=#2C363C guibg=NONE guisp=NONE gui=bold
 echo "include ./paper.conf" >~/dotfiles/kitty/theme.conf
 echo "--theme=\"GitHub\"" >~/dotfiles/bat/config
 cd ~/
+
+gem install jekyll bundler
