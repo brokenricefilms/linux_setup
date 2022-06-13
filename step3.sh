@@ -64,3 +64,14 @@ echo "--theme=\"GitHub\"" >~/dotfiles/bat/config
 cd ~/
 
 gem install jekyll bundler
+
+mkdir ~/repos/
+cd ~/repos/
+gh repo clone thuanpham2311/viet_eng_words_vim_dict
+cd -
+
+cd /usr/share/dict/
+sudo mv words words.backup
+cd -
+
+sudo ln -sf ~/repos/viet_eng_words_vim_dict/words /usr/share/words
