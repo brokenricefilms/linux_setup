@@ -43,6 +43,7 @@ fc-cache -v
 ln -sf ~/dotfiles/gtk.css ~/.config/gtk-3.0/gtk.css
 ln -sf ~/dotfiles/touchcursor ~/.config/
 ln -sf ~/dotfiles/starship.toml ~/.config/
+ln -sf ~/dotfiles/onlyoffice/ ~/.config/
 ln -sf ~/dotfiles/.ripgreprc ~/
 ln -sf ~/dotfiles/topgrade.toml ~/.config/topgrade.toml
 ln -sf ~/dotfiles/input-remapper/ ~/.config/
