@@ -21,9 +21,6 @@ mv ~/.config/nvim ~/backupDotfile
 mv ~/.config/kitty ~/backupDotfile
 mv ~/.fonts ~/backupDotfile
 
-dconf load / <~/dotfiles/gnome/gnomeSetting.dconf
-sudo ln -sf /usr/bin/foot /usr/bin/gnome-terminal
-
 ln -sf ~/dotfiles/bin/ ~/
 ln -sf ~/sync/ok/.tinypng ~/.tinypng
 ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
@@ -53,16 +50,6 @@ ln -sf ~/dotfiles/htop/htoprc ~/.config/htop/
 ln -sf ~/sync/obs-studio/ ~/.config/
 ln -sf ~/dotfiles/foot ~/.config/
 ln -sf ~/sync/ok/ibus-bamboo.macro.text ~/.config/ibus-bamboo/
-
-cowsay "Light theme by default, you can change by using 'dark' command after restart shell"
-echo "
-set background=light
-colorscheme zenbones
-highlight markdownH1 guifg=#2C363C guibg=NONE guisp=NONE gui=bold
-" >~/dotfiles/nvim/after/plugin/themeControl.vim
-echo "include ./paper.conf" >~/dotfiles/kitty/theme.conf
-echo "--theme=\"GitHub\"" >~/dotfiles/bat/config
-cd ~/
 
 gem install jekyll bundler
 
