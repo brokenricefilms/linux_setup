@@ -61,9 +61,6 @@ sudo python3 -m pip install --user --upgrade pynvim
 sudo python3 -m pip install --user --upgrade pylint
 gem install neovim
 
-gh extension install mislav/gh-branch
-gh extension install kawarimidoll/gh-graph
-
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
