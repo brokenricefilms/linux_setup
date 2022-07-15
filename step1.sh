@@ -8,7 +8,7 @@ if hash apt 2>/dev/null; then
   sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
   sudo add-apt-repository ppa:apandada1/foliate
 
-  sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf npm clangd fonts-noto-mono ripgrep foliate zsh ibus-bamboo unrar moreutils exa universal-ctags lua5.4 node-typescript bashtop tig bat wl-clipboard kitty -y
+  sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf bun clangd fonts-noto-mono ripgrep foliate zsh ibus-bamboo unrar moreutils exa universal-ctags lua5.4 node-typescript bashtop tig bat wl-clipboard kitty -y
 
 fi
 
@@ -26,7 +26,7 @@ if hash dnf 2>/dev/null; then
 
   sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:lamlng/Fedora_33/home:lamlng.repo
 
-  sudo dnf install tmux curl wget git neofetch htop gnome-tweaks trash-cli flameshot python3-pip tldr net-tools xclip speedtest-cli neovim python3-neovim fd-find aria2 tree cowsay npm fzf npm ffmpeg youtube-dl mpv tig kitty ripgrep unrar exa moreutils foliate bat util-linux-user zsh cronie git-delta wl-clipboard java-devel git-clang-format rust cargo go gtk-v4l ruby ruby-devel google-chrome-stable gcc-c++ ibus-bamboo gnome-extensions-app lazygit collectd-sensors olive obs-studio -y
+  sudo dnf install tmux curl wget git neofetch htop gnome-tweaks trash-cli flameshot python3-pip tldr net-tools xclip speedtest-cli neovim python3-neovim fd-find aria2 tree cowsay bun fzf npm ffmpeg youtube-dl mpv tig kitty ripgrep unrar exa moreutils foliate bat util-linux-user zsh cronie git-delta wl-clipboard java-devel git-clang-format rust cargo go gtk-v4l ruby ruby-devel google-chrome-stable gcc-c++ ibus-bamboo gnome-extensions-app lazygit collectd-sensors olive obs-studio dconf-editor -y
 
   curl -fsSL https://deno.land/install.sh | sh
 fi
@@ -35,7 +35,7 @@ fi
 if hash pacman 2>/dev/null; then
   sudo pacman-mirrors --geoip && sudo pacman -Syyu
 
-  sudo pacman -S firefox-developer-edition tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay ruby ripgrep kitty exa noto-fonts-emoji lua aria2 foliate tig clang nodejs npm youtube-dl bat python-pip git base-devel wget curl fzf dunst python-i3ipc xdg-desktop-portal xdg-desktop-portal-gnome wmctrl thefuck wl-clipboard --noconfirm
+  sudo pacman -S firefox-developer-edition tmux neofetch htop mpv trash-cli flameshot tldr net-tools xclip speedtest-cli neovim fd tree gimp cowsay ruby ripgrep kitty exa noto-fonts-emoji lua aria2 foliate tig clang nodejs bun youtube-dl bat python-pip git base-devel wget curl fzf dunst python-i3ipc xdg-desktop-portal xdg-desktop-portal-gnome wmctrl thefuck wl-clipboard --noconfirm
 
   git clone https://aur.archlinux.org/yay.git
   cd yay
@@ -45,17 +45,15 @@ if hash pacman 2>/dev/null; then
 
 fi
 
-# use npm install --global without sudo
-npm config set prefix ~/.npm
+curl https://bun.sh/install | bash
 
-npm install --global prettier
-# go to tinypng get tinypng dev API and paste it to file .tinypng at $HOME
-npm install --global tinypng-cli
-npm install --global browser-sync
-npm install --global yarn
-npm install --global neovim
-npm install --global typescript
-npm install --global mathjs
+bun install --global prettier
+bun install --global tinypng-cli
+bun install --global browser-sync
+bun install --global yarn
+bun install --global neovim
+bun install --global typescript
+bun install --global mathjs
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
