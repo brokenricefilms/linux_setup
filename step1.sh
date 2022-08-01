@@ -54,6 +54,7 @@ bun install --global yarn
 bun install --global neovim
 bun install --global typescript
 bun install --global mathjs
+bun install --global bash-language-server
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
