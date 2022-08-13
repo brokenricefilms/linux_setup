@@ -46,6 +46,10 @@ fi
 
 curl https://bun.sh/install | bash
 
+[ -s "/home/master/.bun/_bun" ] && source "/home/master/.bun/_bun"
+export BUN_INSTALL="/home/master/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 bun install --global prettier
 bun install --global tinypng-cli
 bun install --global browser-sync
