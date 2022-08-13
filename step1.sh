@@ -69,7 +69,4 @@ gem install neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-xdg-mime default file_browser.desktop image/jpeg
-xdg-mime default file_browser.desktop image/pdf
-xdg-mime default file_browser.desktop image/gif
-xdg-mime default file_browser.desktop image/svg+xml
+npm prefix -g ~/.npm
