@@ -10,4 +10,4 @@ git clone git@github.com:thuanpham2311/note.git
 cd
 
 cd ~/linux_setup
-./config_linux.sh
+./step3.sh
