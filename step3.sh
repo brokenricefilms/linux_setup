@@ -58,8 +58,4 @@ cd ~/repos/
 gh repo clone thuanpham2311/viet_eng_words_vim_dict
 cd -
 
-cd /usr/share/dict/
-sudo mv words words.backup
-cd -
-
-sudo ln -sf ~/repos/viet_eng_words_vim_dict/words /usr/share/words
+sudo ln -sf ~/repos/viet_eng_words_vim_dict/words /usr/share/dict/words
