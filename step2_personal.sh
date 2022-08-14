@@ -8,6 +8,3 @@ cd ~/sync/
 git clone git@github.com:thuanpham2311/ok.git
 git clone git@github.com:thuanpham2311/note.git
 cd
-
-cd ~/linux_setup
-./step3.sh
