@@ -75,3 +75,5 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 cargo install stylua
 
 npm config set prefix ~/.npm/
+
+pip install --upgrade autopep8
