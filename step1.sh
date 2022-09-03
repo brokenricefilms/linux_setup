@@ -8,7 +8,7 @@ if hash apt 2>/dev/null; then
   sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
   sudo add-apt-repository ppa:apandada1/foliate
 
-  sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf clangd golang fonts-noto-mono ripgrep foliate zsh ibus-bamboo unrar moreutils exa universal-ctags lua5.4 node-typescript bashtop tig bat kitty python3-venv shfmt unzip -y
+  sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf clangd golang fonts-noto-mono ripgrep foliate zsh ibus-bamboo unrar moreutils exa universal-ctags lua5.4 node-typescript bashtop tig bat kitty python3-venv shfmt unzip cargo -y
 fi
 
 # for fedora
@@ -71,5 +71,7 @@ gem install neovim
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+cargo install stylua
 
 npm config set prefix ~/.npm/
