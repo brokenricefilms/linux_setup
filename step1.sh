@@ -8,7 +8,7 @@ if hash apt 2>/dev/null; then
   sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
   sudo add-apt-repository ppa:apandada1/foliate
 
-  sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf clangd golang fonts-noto-mono ripgrep foliate zsh ibus-bamboo unrar moreutils exa universal-ctags lua5.4 node-typescript bashtop tig bat kitty python3-venv shfmt unzip cargo ruby gem -y
+  sudo apt install copyq zsh tmux curl wget git neofetch htop mpv gnome-tweaks trash-cli openssh-client openssh-server flameshot ipython3 python3-pip tldr net-tools xclip speedtest-cli neovim fd-find aria2 tree cowsay fzf clangd golang fonts-noto-mono ripgrep foliate zsh ibus-bamboo unrar moreutils exa universal-ctags lua5.4 node-typescript bashtop tig bat kitty python3-venv shfmt unzip cargo gem ruby-full build-essential zlib1g-dev -y
 fi
 
 # for fedora
@@ -64,16 +64,15 @@ bun install --global bash-language-server
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
-sudo python3 -m pip install --user --upgrade pynvim
-sudo python3 -m pip install --user --upgrade pylint
-gem install neovim
+pip install --upgrade pylint
+pip install --upgrade autopep8
+pip install --upgrade pynvim
+
+gem install neovim jekyll bundler
+cargo install stylua
 
 # nvim setup
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-cargo install stylua
-
 npm config set prefix ~/.npm/
-
-pip install --upgrade autopep8
