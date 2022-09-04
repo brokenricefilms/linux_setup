@@ -14,8 +14,6 @@ git clone --depth=1 https://github.com/Aloxaf/fzf-tab
 git clone --depth=1 https://github.com/chitoku-k/fzf-zsh-completions
 cd
 
-curl -fsSL https://starship.rs/install.sh | bash
-
 mkdir ~/backupDotfile
 mv ~/.config/nvim ~/backupDotfile
 mv ~/.config/kitty ~/backupDotfile
@@ -50,8 +48,6 @@ ln -sf ~/dotfiles/htop/htoprc ~/.config/htop/
 ln -sf ~/sync/obs-studio/ ~/.config/
 ln -sf ~/dotfiles/foot ~/.config/
 ln -sf ~/sync/ok/ibus-bamboo.macro.text ~/.config/ibus-bamboo/
-
-gem install jekyll bundler
 
 mkdir ~/repos/
 cd ~/repos/
